@@ -1,0 +1,17 @@
+Alternativen zu Stallguard:
+
+Nanotec -> ein virtueller Encoder, der die aktuelle Position und Geschwindigleit des Rotors ermittelt
+
+funktioniert zuverlässig erst ab einer Geschwindigkeit von 100 - 250 U/min. Auflösung vergleichbar mit Encoder mit 500 - 1000 Inkrementen
+Technik ähnlich wie StallGuard: es wird über das back-emf der LAstzustand und die Schrittposition erfasst. 
+Unter dem Schwellwert von oben funktioniert erkennung immernoch, aber nurnoch recht ungenau bis runter auf 10 - 25U/min
+
+Motoren mit niedriger induktivität und niedrigem Widerstand funktionieren wesentlich besser as welche mit hoher.
+
+sinnvoll kombination von open und closed loop durch encoder in niedrigen drehzahlen und back-emf in hohen. 
+
+vgl:
+
+https://de.nanotec.com/knowledge-base-artikel/sensorlose-regelung-von-schrittmotoren/#c16212
+https://en.nanotec.com/fileadmin/files/Application_Notes/Sensorlose_Regelung/Sensorless_controll.pdf?1656012520
+

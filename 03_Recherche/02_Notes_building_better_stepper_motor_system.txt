@@ -1,0 +1,24 @@
+https://www.analog.com/en/lp/001/building-better-stepper-motor-system.html
+
+
+dreht man an einem Motor, so erzeugt dieser eine Spannung / eine elektromagnetische Kraft (EMF), die gemessen werden kann über die Sensorwiderstände. 
+Die differenz zwischen Energie, welche in den Motor hinein und heraus fliesst, sagt aus welcher Strom aktuell im Motor fliesst und welchen "Lastwinkel" der Motor aktuell hat. Dadurch können Leistungsanpassungen durchgeführt werden!
+
+Die Energie, welche der Motor zurück an die Spannungsversorgung gibt (das back-EMF) ist ein Messwert für die mechanische Last, welche am Motor angeschlossen ist - oder über den Last-Winkel. Wenn der Winkel gleich 0 ist, ist 
+keine Energie übrig und der Motor könnte ienn Schritt verlieren. 
+
+StallGuard: kann auch sensorlos Hoaming durchführen. Ideal für sensorloses homing, eigenkalibration, distanzmessungen oder verifizirung dass alle mechanischen Teile in den Sicherheitsbereichen arbeiten. 
+
+die Sensorless load detetion macht Referenzen oder limit-switches überflüssig.
+
+openloop stepper verlieren Schrittzähler in overload-situationen -> logisch, da sie ja dann blockieren. StallGuard verhindert Schrittverlust, indem es den Motor anhält wenn eine gesetzte Last erreicht wurde. 
+-> kann 1024 verschiedene Lastlevels erkennen und dadurch ein hochaufgelöstes Feedback über den aktuellen Systemzustand liefern. 
+
+
+
+CoolStep:
+
+dynamische Stromregelung - basierend auf den ausgangsgrössen von stallguard. erkennt übermässige Energie, welche vom antrieb nicht genutzt wird und reduziert Strom entsprechend. 
+Energieeinsparung um bis zu 90% (stallguard 4)
+
+Temporäre Stroomboosts: kleinere Motoren mit weniger Drehmomentreserven können eingesetzt werden - da weniger Drehmomment benötigt wird. 

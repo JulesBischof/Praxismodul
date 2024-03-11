@@ -1,0 +1,124 @@
+
+Beschreibung für Microsteps einen 2-Phasen Motors
+
+https://www.analog.com/en/resources/technical-articles/fluesterleise-schrittmotortreiber-fuer-alle.html
+
+=> Welche Schrittauflösung ist gefordert? Kannd as im Lastenheft nicht sehen. 
+
+Basics:
+
+-> Fullstep: Beide Spulen werden gleichzeitig ein und ausgeschaltet, Motor beginnt zu rotieren, es kann aber zu Schrittverlusten kommen - gerade wenn sich die Schaltfrequenz nahe der Resonanzfrequenz befindet.
+-> Halfstep: Beide Spulen in 45° Positionen, nur ein Spulen paar wenn dazwischen. Dies ermöglicht Halbschritte dazwischen. 
+-> Microstep: Es werden die Phasen nichtmehr einfach nur ein und ausgeschaltet sondern auch der Stromfluss durch sie begrenzt & gesteuert. 
+	Das ermöglicht eine beliebige Ansteuerung der Spulen und eine theoretisch unendlich grose Anzahl an Schritten. Übergangseffekte werden kleiner, da Motor von Schritt zu Schritt nicht so start "überschwingt"
+
+>> State of Art Microstep Driver: Resolution 256. In der Praxis reicht es aber nicht aus einen Sinusstrom vorzugeben - unter anderem Induktivitätseffekte (und andere) erfordern ein präzises Messen und nachregulieren der Microsteps um
+einen geschmeidigen Motorlauf zu erreichen.
+
+
+H-Brücke: 
+
+Begriff back-EMF: Back Electromotive Force -> gemeint ist Induktives Verhalten (Spannung über Spule, welche sich Stromänderung entgegegnsetzt)
+
+-> H-Brücke wird mit MOSFETS als PWM angesteuert, um Strom zu erreichen. Strom wird über Shunt-Widerstand gemessen (Rsense)
+	Es wird der Strom geregelt, nicht die Spannung. Daher ist der Effekt von back-EMF bei höheren Drehzahlen (häufigeres Schalten) weniger relevant
+-> diese PWM Ansteuerung nennt man auch Chopper
+
+verschiedene Ansteuerarten der Motorphasen: 
+	- ON State: Strom fliesst durch Spule in richtiger Richtung
+	- OFF State: Induktionsspannung muss abgeführt werden. Langsames abfähren indem Spule über beide Mosfets kurzgeschlossen wird, schnelles indem Polarität an der Spule gedreht wird. 
+	- es gibt Chopper, die beide switch-off Moden kombinieren. Die nennt man -> mixed decay chopper <-.
+	- manche chopper: schaltfrequenz ist konstant - nur Zeit der Ansteuerung (duty cycle) variiert, andere haben konstant Abschaltzeit, die frequenz wird aber erhöht.
+
+>> State of Art: mixed-decay-choppper mit konstanter Abschaltzeit (und variabler Frequenz). -> nennt man auch constant toff
+
+Die Phase bleibt dabei immer so lange eingeschaltet, bis der gewünschte Phasenstrom erreicht wurde. Danach wird erst über fast-decay die Spule entladen - dann über slow decay is zum nächsten puls.
+Dadurch bildet sich ein Irms, der geringer ist als der Zielstrom. (zwangsweise) Asymmetrisches Ripple! Da unterschiedlich schnelles decay
+
+Da der Strom Irms konstant unter dem Zielstrom liegt (zwangsläufig) stoppt der Motor immer kurzweilig im Nulldurchgang. (Strom kann nicht negativ werden, bevor es der Zielstrom ebenfalls wird)
+-> Dadurch wird eine merkbare Vibration erzeugt, welche auch akustisch zu hören ist. 
+-> Bei hohen Drehzahlen hat back-EMF einen grösseren Einfluss, welches die fallende Flanke der Sinuskurve ebenfalls deformiert.
+
+=> ADI Trinamics spreadCycle Chopper hat ein paar Verbeserungen: 
+- Abschaltphase wird zuerst von schnellem-, dann von langsamen decay gefolgt. Dadurch entsteht symmetischer Strom-Ripple und der Mittelwert-strom Irms entspricht dem Zielstrom. 
+	diese Chopper können ihre eigene Hysterese anpassen und so die fast-decay komponenten anpassen. dadurch wird das Problem des unsauberen Nulldurchgangs merklich reduziert und die Motoren laufen sauberer
+	Durch geringeres ripple wird der Motor nicht unnötig aufgeheizt
+	-> es wird gesagt ein sauber gesteuerter Strom ist wesentlich wichtiger als eine hohe Schrittauflösung. 
+	
+=> in der Praxis haben die spreadCycle Chopper auch hilfreiche Funktionen wie "Sensorless Load detection", "Stall Guard 2" und sensorlose Lastabhängige Stromregulierung "coolStep"
+
+
+=>>> From conventional power chopper to stealthChop
+
+Verzerrungen durch Strom ripple zeigen sich in lautem Motorlauf
+idealerweise müsste Strom über rein analoges Signal gesteuert werden, Verstärker haben dafür aber einen viel zu Hohen Leistungsverlust. 
+Spannungsgesteuerter Betrieb erreicht gute Resultate. Dabei wir die Spannung vorgegeben und der entsprechende Strom stellt sich über die komplexe Impedanz ein (Induktivität der Spule). Wird mit dieser
+eingestellten Spannung herumgespielt, kann man auch ein Microstepping implementieren. Grosser Nachteil: keine Strommessung und Kontrolle. Der Treiber muss also sehr präzise auf den entsprechenden Motor eingestellt sein
+und back-emf-effekte können nicht Kompensiert wrden. Das heisst dieses System funktioniert nur gut in niedrigen Drehzahlen. 
+
+stealthChop: Spannungskontrollierter Betrieb mit integrierter Stromkontrolle. Schön ggleichmässiger Stromerlauf, währrend in höheren Drehzahlen die Induktivitätsproblene (back-emf) abgefangen werden knönenb.
+-> Drehmomentkurve proportional zu stromkurve im chopper-modus.
+-> eine strommessung pro schritt -> es braucht 10 schritte bis Strom angepasst wurde. Dadurch reagiert dieser Treiber nicht ganz so dynamisch wie power-chopper-operator.
+
+-> improvements in stealthchop2: innenwiderstand und back-emf des Motors werden gemessen und abgespeichert währrend des ersten laufs. Auf Basis dieser Daten wird Strom direkt neu angepasst, sodass er nichtmehr reguliert
+werden muss währrend des laufs. 
+
+vergleich stealthChop & spreadCycle (Spannungsgesteuert und Stromgesteuert):
+spreadcycle: messungenauigkeitern erzeugen leichte Störungen und leicht ungenaues ansteuern der Spulen. Whingegen stealthChop sehr gleichmässig den Motor ansteuert
+
+spreadcycle: misst strom bei jedem chopper-cycle und Zielstrom wird angepasst. Kleinste Stören (wenige mV) erzeugen hier schon eine Stromänderung und dadruch eine Anpasung der chopper-Frequenz (abschaltzeit ist ja konstant)
+stealthChop dagegen arbeitet mit fester Frequenz und Änderungen werden nur verursacht durch das Variieren des Stromes. 
+
+Vergleich beider Systeme: 
+- i niedrigen Geschwindigkeiten geben beide Systeme ein ähnliches Drehmoment ab. in mittleren bis hohen geschwindigkeiten zeigt sich allerdings die Stromgesteuerter spreadCycle Steuerung als besser. 
+	Das liegt daran dass die Stromsteuerung mit ihren Messungen in jedem Zyklus wesentlich besser mit Induktions-Spannungsspitze umgehen. 
+- durch dämpfende Betriebe in z.B. Riemenantrieben wird das System erfahrungsgemäss so gut gedämpft, dass stealthChop(Spannungsgesteurt) auch Vorteile in höheren Drehzahlen zeigen kann. In Hohendrehzahlen Mechanik eh so laut,
+	dass der ruhige Lauf der Spannungssteuerunbg nicht zwingen benötigt wird. In der Praxis wird deshalb auch gerne in oberen Drehzahlen auf Stromsteuerung umgestellt, währrend der Motor in niedrigen Drehzahlen spannungsgesteuert unterwegs ist. 
+- in hohen geschwindigkeiten können dadurch auch hilfreiche Funktionen wie stallGuard2 oder coolStep verwendet werden. diese Funktionen stehen ausschlieslich in Kombination mit spreadCycle zur verfügung!
+
+
+Noise-Reduzierung auch mit Stromreduzierung möglich in niedrigen Drehzahlen. Weniger Energie: weniger Oszillation. Trivial.
+in der Praxis oftmals das Prinzip: stepper läuft nicht stabil - mehr Strom! Manchmal hilft allerdings auch genau das Gegenteil. Weniger Strom -> system neigt weniger zum schwingen und entsprechende Probleme treten garnicht erst auf.
+
+Ein Strom-Chopper Motortreiber lässt an für gewöhnlich einen Konstantstrom in die Spule ab. Jede Last benötigt einen entsprechenden Strom, um genug Drehmoment zu haben, um einen Schritt machen zu können. 
+Folge: zu wenig Strom/ zu viel Last: Motor verliert Schritt (stall - loss). Damit das nicht passiert, wird darum in der Praxis eine Sicherheits-Stromgrenze von 20-50% über der Lastgrenze angestrebt.
+-> Der Motor erhält also konstant zu viel Strom, wodurch er anfangen könnte zu schwingen. (+Motor wird warm)
+
+ADI-Trinamic Chips haben den stallGuard2, welche sensorlos die Last erkennen können. Die Lastabhängige Ansteuerung des Stromes nennt sich coolStep. Coolstep nimmt als Eingangsgrösse die Ausgangsgrösse des stallGuard. 
+Dadurch erhält der Motor nur soviel Energie, wie er auch benötigt: weniger noise & weniger erhitzung. 
+
+=>>> damit stallGuard2 und coolStep verwendet werden können, wird in Serial Interface benötigt um sie zu parametrisieren. Diese Funktionen stehen also ==>> NUR <<== den smart-drivers zur Verfügung. 
+Es gibt allerdings auc die Möglichkeit über clock und dir - pins den Strom zu reduzieren. Bei einem stillstand kann der Strom so auf 1/3 reduziert werden. 
+
+ 
+
+
+Einbauempfehlungen: 
+-> Sensorwiderstände Rsense haben leider noch weitere parasitäre Widerstände, welche beachtet werden müssen. Da der Motorstrom alle 10ns geschaltet wird, hat das dynamische Verhalten einen signifikanten Einfluss auf den Schaltkreis.
+die parasitären Induktivitäten müssen so gering wie nur irgend möglich gehalten werden. 
+-> Masse anbindungen direkt am Pin selbst.
+-> Phasenstrom und Mess-Pfade müssen seperirt werden (BRx & SRx)
+-> Sensorwiderstände bekommen eigenes grossflächiges Ground zur Verfügung gestellt. 
+-> Leitungen zu Messwiderständen so kurz wie möglich, Traces so weit wie möglich und ground-plane mit vielen vias verwenden. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
