@@ -15,3 +15,7 @@ vgl:
 https://de.nanotec.com/knowledge-base-artikel/sensorlose-regelung-von-schrittmotoren/#c16212
 https://en.nanotec.com/fileadmin/files/Application_Notes/Sensorlose_Regelung/Sensorless_controll.pdf?1656012520
 
+
+Daisychain - SPI für mehrere Boards
+SPI Device, das programmable Adress umstellen kann (Adresspins an chip entsprechend setzen)
+weiter ideen..?
