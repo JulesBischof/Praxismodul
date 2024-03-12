@@ -1,0 +1,77 @@
+\documentclass[]{article}
+
+% Pakete
+
+\usepackage[german]{babel} % Sprache: Deutsch
+\usepackage{graphics} % grafik package
+\usepackage{amsmath} % mathematische Symbole
+\usepackage{hyperref} % hyperlinks im Dokument
+\usepackage[utf8]{inputenc} % UTF-8 Formatierung
+\usepackage[T1]{fontenc} % Umlaute
+
+
+% Titel, Autor und Datum
+\title{Dokumentation PRAX\textunderscore6}
+\author{Julian Bischof \\
+        Hochschule Luzern \\
+        julian.bischof@stud.hslu.ch}
+\date{\today}
+
+% beginn des Dokuments:
+\begin{document}
+
+% Titelseite
+
+\maketitle 
+\thispagestyle{empty}
+
+\newpage
+\thispagestyle{empty}
+\begin{abstract}
+    Abstract hier
+\end{abstract}
+\newpage
+
+% Inhaltsverzeichnis
+\pagenumbering{roman}
+\tableofcontents % Inhaltsverzeichnis
+\listoffigures % Abbildungsverzeichnis -> alles was sich innerhal von figure umgebung befindet begin/end{figure}, caption{text}
+\listoftables % Tabellenverzeichnis -> alles was sich innerhalb von table umgebung befindet
+\clearpage
+\setcounter{page}{0}
+\pagenumbering{arabic}
+
+\section{Einleitung}
+
+Einleitung hier
+
+\section{Hintergründe}
+
+Etwas zu Randbedingungen
+
+\section{Methodik und Vorgehen}
+
+Etwas zu Methodik und Vorgehen
+
+\section{Theoretische Grundlagen}
+
+Etwas zu meinen Recherchen
+\subsection{I2C Bus}
+\subsection{SPI Bus}
+
+\section{Konzepterstellung}
+\section{Randbedingungen}
+\section{Komponentenauswahl}
+\section{Analyse und Entscheid}
+
+\section{Schemaerstellung}
+
+\section{Zwischenstand}
+
+\section{Fazit und Ausblick}
+
+%\bibliography{reference}
+
+\section{Anhang}
+
+\end{document}

@@ -1,0 +1,15 @@
+\babel@toc {german}{}\relax 
+\contentsline {section}{\numberline {1}Einleitung}{1}{section.1}%
+\contentsline {section}{\numberline {2}Hintergründe}{1}{section.2}%
+\contentsline {section}{\numberline {3}Methodik und Vorgehen}{1}{section.3}%
+\contentsline {section}{\numberline {4}Theoretische Grundlagen}{1}{section.4}%
+\contentsline {subsection}{\numberline {4.1}I2C Bus}{1}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}SPI Bus}{1}{subsection.4.2}%
+\contentsline {section}{\numberline {5}Konzepterstellung}{1}{section.5}%
+\contentsline {section}{\numberline {6}Randbedingungen}{1}{section.6}%
+\contentsline {section}{\numberline {7}Komponentenauswahl}{1}{section.7}%
+\contentsline {section}{\numberline {8}Analyse und Entscheid}{1}{section.8}%
+\contentsline {section}{\numberline {9}Schemaerstellung}{1}{section.9}%
+\contentsline {section}{\numberline {10}Zwischenstand}{1}{section.10}%
+\contentsline {section}{\numberline {11}Fazit und Ausblick}{1}{section.11}%
+\contentsline {section}{\numberline {12}Anhang}{1}{section.12}%
