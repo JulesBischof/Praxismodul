@@ -1,0 +1,35 @@
+
+https://www.digikey.ch/de/articles/understanding-encoder-output-signals-to-aid-optimum-device-selection
+
+es gibt Inkrementalwert, Absolutwert & Kommutierungswertgeber
+
+>>>>>> Open Collector Ausgang
+-> am häufigsten verwendet. BJT-Kollektor am Transistor bei HIGH eingang offen oder unbeschaltet -> PullUp R benötigt. 
+-> wird nur gegen LOW gezogen
+-> dadurch flexibel was Spannungsbereiche anbelangt
+-> PullUp zieht strom, Parasitäre Kapazitäten in Schaltung verlangsamen Schaltung
+-> hohe auflösung: Kapazitäten müssen schnbell umgekladen werden was in höherer Verlustleistung resultiert. 
+
+>>>>>> Push-Pull Ausgang
+-> steile Flanken, da keine KApazitäten umgeladen werden müssen
+-> LOW Signal benötigt keinen Strom
+
+>>>>>> Differentielle Leistungstreiberausgänge
+
+PushPull Ausgänge und Open Collector Ausgänge sind "Referenzbezogene" Ausgänge. Einschränkungen, wenn sie zusammen in langen Kabeln oder in Umgebungen mit EMV-Einflüssen betrieben werden. 
+
+-> lange Kabelstrecke: Amplitude wird verringert, Kapazitäten verlangsamen wieder mal die Schaltübergänge
+-> Umgebnug mit Rauschen induziert unerwünschte Spannungen in die Kabel -> decodierung kann fehlerbehaftet sein. 
+-> Kabellänge mehr als einen Meter: differenzielle Siognalübertragung
+
+Sender erzeugt zwei in sich inverteierte Originalsignale. die Differenz zwischen beiden Signalen ist doppelt so gross wie bei normalen referenzbezogenen Signalen -> Einflüsse durch rauschen oder Kapaziitäten nurnoch halb so wild. 
+gleichtaktrauschen kann duch subtraktion beider Signale voneinander eliminiert werden und wird so von Empfänger ignoriert. 
+
+
+
+
+
+>> 2-Kanal-Quadraturausgang = 2 um 90° verschobene Rechteckimpulse
+
+https://www.mikrocontroller.net/articles/Drehgeber
+

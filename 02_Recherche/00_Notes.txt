@@ -19,3 +19,5 @@ https://en.nanotec.com/fileadmin/files/Application_Notes/Sensorlose_Regelung/Sen
 Daisychain - SPI für mehrere Boards
 SPI Device, das programmable Adress umstellen kann (Adresspins an chip entsprechend setzen)
 weiter ideen..?
+
+RS422 - Kommunikationstreiber

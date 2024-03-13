@@ -1,0 +1,8 @@
+Ciao Julian
+
+Gemäss meinem Wissensstand setzt Schleuniger den  TMC5130 | Analog Devices mit integrierter Endstufe und den TMC5160 | Analog Devices mit externer Endstufe ein.
+Christoph Peter meinte es gibt noch Nachfolger von diesen Typen, welche auch spannend sein könnten. Wäre sicher gut, wenn du in dieser Richtung noch die Bausteine in deine Recherche einfliessen lassen kannst.
+
+Beste Grüsse
+
+Francesco
