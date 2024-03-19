@@ -1,0 +1,17 @@
+Gleichtaktdrosseln: CM-Drosseln (Common Mode Drosseln)
+
+https://www.voltech.com/de/anwendungen/testbeispiele/gleichtaktdrosseln/#:~:text=Die%20Drossel%20wird%20in%20der,zur%C3%BCck%20durch%20die%20andere%20flie%C3%9Ft.&text=Wenn%20ein%20Differenzstrom%20vorhanden%20ist,die%20sich%20dann%20gegenseitig%20aufheben.
+
+- Verhindern elektromagnetische Störungen(RMI) und hochfrequenzstörungen (RFI) durch Speisungsleitungen.
+- Zwei Spulen auf einem Kern. Strom fliesst durche eine Spule hinein und durch die andere zurück. 
+- lassen unerwünschte, in eine Richtung fliessende Ströme nicht durchfliessen, währrend sie in unterschiedliche Richtung fliessende Ströme(den Gleichstrom) passieren lassen
+
+https://www.electricity-magnetism.org/de/gleichtakt-drossel/
+
+- Gleichtakt-Störung = Interferenzm die gleichzeitig und in gleicher Phase auf beiden Leitungen eines Zwidrahtsystems auftritt. 
+
+
+
+
+- kann z.B. auftreten, wenn Motor durch Induktivität System stört und in Stromversorgung hinein strahlt
+

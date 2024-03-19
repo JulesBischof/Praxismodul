@@ -1,0 +1,59 @@
+﻿Field=#~Integer~#~50|Field=Fitted~String~Fitted~100|Field=Designator~String~Designator~100|Field=Quantity~Integer~Quantity~100|Field=Comment~String~Comment~100|Field=Description~String~Description~100|Field=LibRef~String~LibRef~100|Field=FootprintBOM~String~FootprintBOM~100|Field=Manufacturer~String~Manufacturer~100|Field=Distributor~String~Distributor~100|Field=Reference~String~Reference~100|Field=PartNoKomax~String~PartNoKomax~100|Field=Notes~String~Notes~100|Field=2ndSourcesReleased~String~2ndSourcesReleased~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~D00173332_IP3734.PRJPCB|ReportField=ProjectFullPath~D:\work\IP3734\PCB_SVN_i001\D00173332_IP3734.PRJPCB|ReportField=Title~Bill of Materials For Variant [0384261] of Project [D00173332_IP3734.PRJPCB] (No PCB Document Selected)|ReportField=ReportTime~14:43:54|ReportField=ReportDate~07.03.2019|ReportField=ReportDateTime~07.03.2019 14:43:54|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~0384261|ReportField=TotalQuantity~89|ReportField=TotalActualPrice~0|ReportField=TotalTargetPrice~0|ReportField=VersionControl_RevNumber~|ReportField=VersionControl_ProjFolderRevNumber~|ReportField=KPP_Assembly_DocNr~D00173333|ReportField=KPP_Assembly_Variant_DocNr~Dyyyyyyyy|ReportField=KPP_Idx~i002|ReportField=KPP_Pcb_DocNr~D00173334|ReportField=KPP_Pcb_Idx~i002|ReportField=KPP_Proj_Name~IP3734|ReportField=KPP_Proj_Sch_Bom_DocNr~D00173332|ReportField=KPP_Proj_Vorlage~0006 (do not edit)|ReportField=KSP_OutputFolder_AltiumProject~AltiumProject|ReportField=KSP_OutputFolder_Assembly~AssemblyData|ReportField=KSP_OutputFolder_Assembly_Variant~AssemblyDataVariant|ReportField=KSP_OutputFolder_PCB~PCBData|ReportField=Address1~-|ReportField=Address2~-|ReportField=Address3~-|ReportField=Address4~-|ReportField=Application_BuildNumber~|ReportField=ApprovedBy~-|ReportField=Author~-|ReportField=CheckedBy~-|ReportField=CompanyName~-|ReportField=ConfigurationParameters~|ReportField=ConfiguratorName~|ReportField=CurrentDate~07.03.2019|ReportField=CurrentTime~13:44:44|ReportField=Date~-|ReportField=DocumentFullPathAndName~D:\work\IP3734\PCB_SVN_i001\Documents\01_D00173332_TopSheet.SchDoc|ReportField=DocumentName~01_D00173332_TopSheet.SchDoc|ReportField=DocumentNumber~-|ReportField=DrawnBy~-|ReportField=Engineer~-|ReportField=ImagePath~-|ReportField=IsUserConfigurable~|ReportField=KSDP_CreatedBy~Patrick Rossacher|ReportField=KSDP_CreationDate~06.12.2017|ReportField=KSDP_ModificationDate~-|ReportField=KSDP_ModifiedBy~-|ReportField=KSDP_ObjectName~TopSheet|ReportField=ModifiedDate~05.03.2019|ReportField=Organization~Komax AG|ReportField=PageSetup~Record=PageOptions:CenterHorizontal=True:CenterVertical=True:PrintScale=0.97:XCorrection=1.00:YCorrection=1.00:PrintKind=1:BorderSize=5000000:LeftOffset=0:BottomOffset=0:Orientation=2:PaperLength=1000:PaperWidth=1000:Scale=100:PaperSource=7:PrintQuality=-4:MediaType=1:DitherType=10:PrintScaleMode=1:PaperKind=A4:PaperIndex=9|ReportField=ProjectName~D00173332_IP3734.PRJPCB|ReportField=Revision~-|ReportField=Rule~|ReportField=SheetNumber~1|ReportField=SheetTotal~8|ReportField=Time~-|ReportField=Title~-|ReportField=VersionControl_ProjFolderRevNumber~|ReportField=VersionControl_RevNumber~|ReportField=DataSourceFileName~D00173332_IP3734.PRJPCB|ReportField=DataSourceFullPath~D:\work\IP3734\PCB_SVN_i001\D00173332_IP3734.PRJPCB|ReportField=PCBConfigurationName~Default Configuration|ReportField=Item~|ReportField=ItemRevision~|ReportField=ItemAndRevision~|ReportField=ItemRevisionBase~|ReportField=ItemRevisionLevel1~|ReportField=ItemRevisionLevel2~|ReportField=ItemRevisionLevel1AndBase~|ReportField=ItemRevisionLevel2AndLevel1~
+1|Fitted|A100|1|D00173334 i002|PCB not assembled|PCB from project|||||||
+2|Fitted|A101|1|i000|Etiquette Article-Index|Kleber Artikel-Index||||||Positioning and design see assembly instructions|
+3|Fitted|A102|1|Print-ID|Etiquette PCB Identification|Kleber Printidentifikation||||||Positioning and design see assembly instructions|
+4|Fitted|C300, C305, C306, C404, C405, C407, C408|7|1nF|Ceramic Capacitor >=50V X7R|CAP|1206||||||
+5|Fitted|C301, C307, C308|3|22n|Ceramic Capacitor >=50V X7R|CAP|1206||||||
+6|Fitted|C302, C303, C304|3|10u|Ceramic Capacitor >=50V X7R|CAP|1206||||||
+7|Fitted|C309, C310|2|1u|Ceramic Capacitor >=25V|CAP|0805||||||
+8|Fitted|C311, C312|2|100nF|Ceramic Capacitor >=50V X7R|Cap|0805||||||
+9|Fitted|C400, C409|2|330uF/50V|EEVFK1H331Q|C_EL_220UF/50V||Panasonic|||||
+10|Fitted|C401, C403, C411, C412, C413, C414, C415, C416, C700|9|100n|Ceramic Capacitor >=50V X7R|CAP|0402||||||
+11|Fitted|C402|1|220n|Ceramic Capacitor >=50V X7R|Cap|0603||||||
+12|Fitted|C410|1|470n|Ceramic Capacitor >=50V X7R|Cap|0603||||||
+13|Fitted|C418, C419, C420|3|47p|Ceramic Capacitor >=50V X7R|Cap|0402||||||
+14|Fitted|D300|1|BZX384-C15|ZenerDiode 15V|DIODEZENER|SOD-323|NXP|||||
+15|Fitted|D301, D302, D303, D400, D401, D402|6|HSMG-C190|SMD LED green|LED||AVAGO|||||
+16|Fitted|L300, L400, L401|3|ACM90V-701-2PL-TL00|Common Mode Chokes Dual 700Ohm 100MHz 5A 10mOhm DCR SMD T/R|ACM1211-701-2PL-TL01|ACM90V|TDK|||||
+17|Fitted|L301|1|7427512|Ferrit Bead 580Ohm @ 100MHz / 5A|Power_Choke||Würth|||||
+18|Fitted|Q300, Q301, Q400, Q401, Q404, Q405|6|STL42P6LLF6|P-Channel Power MOSFET, -60V|MOSFET-P 1G,2x,3S,4D (Diode)|||||||DMP6050SPS-13
+19|Fitted|Q402, Q403, Q406, Q407|4|STL8N6LF6AG|N-Channel Power MOSFET, 60V|MOSFET-N 1G,4D,3S (Diode)|||||||DMT6016LPS-13
+20|Fitted|R300, R301|2|150k|Resistor 0.063W 1%|RES2|0402||||||
+21|Fitted|R302, R303|2|100k|Resistor 0.063W 1%|RES2|0402||||||
+22|Fitted|R304|1|13k|Resistor 0.25W 1%|RES2|1206||||||
+23|Fitted|R305|1|1k8|Resistor 0.063W 1%|RES2|0402||||||
+24|Fitted|R306, R405, R406, R407|4|820R|Resistor 0.063W 1%|RES2|0402||||||
+25|Fitted|R309|1|1R|Resistor 0.125W 1%|RES2|0805||||||
+26|Fitted|R314|1|10k|Resistor 0.125W 1%|RES2|0805||||||
+27|Fitted|R401, R402|2|10k|Resistor 0.063W 1%|RES2|0402||||||
+28|Fitted|R403, R408, R701|3|0R|Resistor 0.063W 1%|RES2|0402||||||
+29|Fitted|R404, R409|2|CRA2512-FZ-R040ELF|Resistor 40m / 3W 1%|RES2|2512|Bourns|||||YAG2173DKR-ND
+30|Fitted|R410, R411, R412, R413|4|47R|Resistor 0.063W 1%|RES2|0402||||||
+31|Fitted|U300|1|AP2210K-3.3TRG1|Linear Voltage Regulator|Linear_Regulator|SOT-23-5|Diodes Incorporated|||||LD2980CM33TR
+32|Fitted|U400|1|TMC4361A-LA|S-ramp motion controller for stepper motors with high velocities. With SPI and Step/Dir; QFN40(5x5)|TMC4361A-LA||TRINAMIC|||||
+33|Fitted|U401|1|TMC262-LA|Energy saving high resolution microstepping two phase stepper driver with Step/Dir, SPI, up to 60V, QFN32(5x5)|TMC262-LA||TRINAMIC|||||
+34|Fitted|U402|1|ECS-2520S33-160-FN-TR|MEMS Oscillator 16MHz 3,3V -40/+85°C|OSCILATOR4|SMD 2.5x2mm|ECS|||||
+35|Fitted|U700|1|M24128-BFMC6|I2C Eeprom 128kBit|24LC024|8-UFDFN|ST Microelectronics|||||AT24C128C-MAHM-E
+36|Fitted|X1|1|640445-4|MTA-156 Plug Connector 180° 4P 3.96mm|CON_4P|||||||
+37|Fitted|X6|1|154765|Connector SMC 2x25p 90° 1.27mm|CON_50P_ERNI|SMD RM=1.27mm|ERNI|||||
+38|Fitted|X7, X8|2|MOLEX-39-28-1043|Connector Mini Fit 4p 180°|CON_4P|THT|Molex|||||
+39|Not Fitted|C406, C417|0|470nF|Ceramic Capacitor >=25V|CAP|0603||||||
+40|Not Fitted|C500, C501, C503, C504, C513, C514|0|100p|Ceramic Capacitor >=50V X7R|CAP|0402||||||
+41|Not Fitted|C502, C515, C612, C613, C614|0|100n|Ceramic Capacitor >=50V X7R|CAP|0402||||||
+42|Not Fitted|C505, C506, C507, C508, C509, C510, C511, C512, C600, C601, C602, C604, C605, C606, C609, C610, C611|0|1n|Ceramic Capacitor >=50V X7R|CAP|0402||||||
+43|Not Fitted|C603, C607, C608|0|220n|Ceramic Capacitor >=50V X7R|CAP|0603||||||
+44|Not Fitted|D600, D602, D604|0|HSMG-C190|SMD LED green|LED||AVAGO|||||
+45|Not Fitted|D601, D603, D605|0|BZX384-C3V0|Zener Diode 3V|DIODEZENER|SOD-323|NXP|||||
+46|Not Fitted|F300|0|1210L075/24PR|Polyfuse 750mA|THERMAL FUSE_1|1210|Littlefuse|||||
+47|Not Fitted|L500|0|CIS21J121NE|Power Supression Bead 120Ohm bei 100MHz 5A|INDUCTOR1|0805|Samsung|||||
+48|Not Fitted|R200, R201, R700|0|0R|Resistor 0.063W 1%|RES2|0402||||||
+49|Not Fitted|R500, R503, R507, R510, R511, R514|0|3k3|Resistor 0.063W 1%|RES2|0402||||||
+50|Not Fitted|R501, R502, R508, R509, R512, R513|0|120R|Resistor 0.1W 1%|RES2|0603||||||
+51|Not Fitted|R504, R505, R506|0|1k5|Resistor 0.063W 1%|RES2|0402||||||
+52|Not Fitted|R600, R602, R603, R605, R607, R608, R610, R612, R613|0|820R|Resistor 0.063W 1%|RES2|0402||||||
+53|Not Fitted|R601, R606, R611|0|3k9|Resistor 0.25W 1%|RES2|1206||||||
+54|Not Fitted|R604, R609, R614|0|2k4|Resistor 0.063W 1%|RES2|0402||||||
+55|Not Fitted|U500|0|AM26LV32I|3.3V 4fach RS422 Receiver +-15kV ESD-Protected|MAX3096CSE|SOIC-16|TI|||||ISL32173EFBZ
+56|Not Fitted|U600, U601, U602|0|NC7WZ14P6X||NC7WZ14P6X|TSSOP-14|ON-Semi|||||
+57|Not Fitted|X2|0|76385-304LF|Header 2x4p 180° RM=2.54mm|CON8|THT|FCI Framatone|||||
+58|Not Fitted|X3, X4, X5|0|0-0640456-3|MTA-100 Plug Connector 180° 3p 2.54mm|CON3|THT RM=2.54mm|AMP/TYCO|||||

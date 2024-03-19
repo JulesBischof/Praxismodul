@@ -1,0 +1,17 @@
+syntax: glob
+
+.hgignore
+.svn/
+__Previews/
+History/
+3D/
+3D_Backup/
+Libraries/
+OUTPUTS/
+Project Logs/
+Script/
+Templates/
+Tools/
+Status Report.Txt
+Documents/01_D00173332_TopSheet.SchDoc.orig
+Documents/D00173334_IP3734_pcb.pcbdoc.orig

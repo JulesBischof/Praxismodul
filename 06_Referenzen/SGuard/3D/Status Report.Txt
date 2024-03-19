@@ -1,0 +1,18 @@
+Output: GenerateAndCollect
+Type  : Script
+From  : Variant [0384261] of Script Document [GENERATE_KOMAX_OUTPUTS.pas]
+   Printed Document[01_D00173332_TopSheet.SchDoc]
+   Printed Document[02_CtrlExp_Link.SchDoc]
+   Printed Document[03_Power_Supply.SchDoc]
+   Printed Document[04_Driver.SchDoc]
+   Printed Document[05_Encoder_IN.SchDoc]
+   Printed Document[06_Input_1-3.SchDoc]
+   Printed Document[07_Hardware_ID.SchDoc]
+   Printed Document[D00173332_IP3734.PRJPCB]
+   Generated File[GENERATE_KOMAX_OUTPUTS.pas]
+
+
+Files Generated   : 1
+Documents Printed : 8
+
+Finished Output Generation At 14:40:10 On 12.11.2018
