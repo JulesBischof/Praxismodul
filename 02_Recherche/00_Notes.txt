@@ -21,3 +21,6 @@ SPI Device, das programmable Adress umstellen kann (Adresspins an chip entsprech
 weiter ideen..?
 
 RS422 - Kommunikationstreiber
+
+
+Phoenix_Stecker 3.35mm für Eingänge
