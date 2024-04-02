@@ -9,9 +9,11 @@
 \usepackage[utf8]{inputenc} % UTF-8 Formatierung
 \usepackage[T1]{fontenc} % Umlaute
 
+\usepackage{parskip} % Absätze anders Formatieren
+\usepackage[table]{xcolor} % Paket für Farben in Tabellen
 
 % Titel, Autor und Datum
-\title{Dokumentation PRAX\textunderscore6}
+\title{Dokumentation PRAX\_6}
 \author{Julian Bischof \\
         Hochschule Luzern \\
         julian.bischof@stud.hslu.ch}
@@ -50,8 +52,35 @@ Einleitung hier
 Etwas zu Randbedingungen
 
 \section{Methodik und Vorgehen}
+In einem ersten Schritt wurde die Aufgabenstellung in verschiedene Bausteine unterteilt, 
+die im Rahmen eines morphologischen Kastens zusammengesetzt wurden. Um die verschiedenen Konzepte
+auch im Rahmen der Herstellungskosten miteinander vergleichen zu können, wurden die verschiedenen Bausteine
+auch preislich bewertet. Diese Vorkalkulationen beziehen sich auf Preise und Daten, welche entweder vom Hersteller zur
+Verfügung gestellt werden, oder von Onlinehändlern -- z.B. von Mouser.ch -- bezogen werden können.
 
-Etwas zu Methodik und Vorgehen
+Im folgenden wird kurz auf einzelne Bausteine eingegangen, bevor die verschiednen Varianten kurz beschrieben werden. 
+
+\subsection{Morphologischer Kasten}
+
+\begin{itemize}
+    \item Chip:
+        \\ Hier wurden verschiedene Treiberbausteine Betrachtet. Sowohl vollintegrierte Treiber, welche
+        sowohl einen Indexer, einen Rampgenerator mitsamt Endstufe besitzen als auch einfache Indexer mit
+        Endstufen. Aus diesem Punkt folgen zwangsläufig auch I\textsubscript{rms} und U\textsubscript{out}. 
+    \item Anzahl Erweiterungen: 
+        \\ Dieser Punkt stellt die Erweiterbarkeit der verschiedenen Konzepte dar. Maximal gewünscht sind
+        nur 2.
+    \item Schnittstelle zu IOe2:
+        \\ Die betrifft die Schnittstelle, über welche das Board Konfigueritert und angesteuert werden kann.
+    \item Adresskonfiguration, SPI Erweiterungen
+        \\ Die eindeutige Identifikation der Erweiterung stellt ein Problem dar, welches es zu lösen gibt. 
+        Als Möglichkeiten wurde eine einfache inkrementelle verbindung der Schnittstellen, ein binäres "herunterzählen" 
+        über Logikbausteine als auch eine Adresskonfiguration über Shiftregister als möglich gezeigt. 
+    \item 
+\end{itemize}
+
+
+
 
 \section{Theoretische Grundlagen}
 
