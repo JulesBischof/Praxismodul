@@ -1,0 +1,52 @@
+
+##########################
+Anwesend: 
+##########################
+
+Julian Bischof
+Francesco Casamassima
+Rolf Christen
+Christoph Peter
+
+
+
+
+
+##########################
+Themen:
+##########################
+
+1. Vorstellung des Vorgehens (Kostenabschätzung etc)
+2. Vorstellung ausgearbeteter Konzepte & Diskussion
+4. Entscheidung auf ein Konzept
+
+
+
+
+
+
+##########################
+Ergebnisse:
+##########################
+
+// 1.
+
+- bei Berechnung der Leiterplattenkosten wurden die Kosten für die 2. Schnittstelle vergessen
+- die Filterschaltung braucht es auch auf der Ausgangsseite
+
+// 2.
+
+- Favoriten 6, 7, 8
+- 6 und 7 sehr ähnlich -> Entscheidung wenn für 7 da bessere Performance bei gleichem Preis & Second Sources. 
+- Konzept 6 & 7 wahrscheinlich wesentlich aufwändeiger in der Entwicklung Softwareseitig
+- Favorit also Nummer 8, da schneller entwickelt, günstig und gute Erfahrungen in der Vergangenheit mit ADI gemacht
+- Speisung kann über IOe bezogen werden, da dieses über seine Pins 1.7A pro Pin liefern kann. 
+
+// 4.
+
+Entscheid auf Konzept 8 unter der Vorraussetzung, dass die Schnittstelle des IOe2 genügend Strom über die Schnittstelle zur Verfügung stellen kann. 
+
+// aufgekommene Fragen: 
+-> Bietet ADI eine Garantie, wie lange ihre Bauteile verfügbar sind? Gibt es so etwas von TI? 
+-> Mal einen Blick in das MotionBoard von Schleuniger werfen
+-> es wäre gut, mal ein Evaluation Board zu bestellen.

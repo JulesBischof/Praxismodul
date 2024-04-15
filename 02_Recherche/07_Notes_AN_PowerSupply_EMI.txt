@@ -1,0 +1,27 @@
+####### 1.:
+https://www.analog.com/en/resources/technical-articles/reduce-power-supply-emi-designing-a-differential-mode-input-filter.html
+
+Schalt-EMI kann übertragen werden durch...
+1- Strahlung (Antennen)
+2- über Leiterbahnen auf der INPUT Seite
+3-über Leiterbahnen auf OUTPUT Seite
+
+
+Strahlungs EMI kann reduziert werden durch gutes Board Layout. Sie treten durch Parasitäre Elemente auf. 
+Die anderen beiden werden verhindert durch entsprechende Filterschaltungen.
+
+Simulationsprogramm: LTpowerCAD
+
+####### 2.:
+Power Supply Layout and EMI
+
+EMI wird von hohen di/dt loops ausgelöst
+Speisungs und Lastleitungen sollten keine hohen AC Anteile besitzen
+Cin -> versorgt alle AC-Signale
+Cout -> Ende aller AC Signale
+
+Hot loop: das grüne
+
+Strahlungseffekte dieses grünen Loops müssen reduziert werden - grösster impact auf Schaltung.
+Wäre Cin ohne Impedanz und Layout-Platz = 0 -> Problem gelöst
+

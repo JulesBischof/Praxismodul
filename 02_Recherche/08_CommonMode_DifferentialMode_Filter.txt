@@ -1,0 +1,64 @@
+https://www.coilcraft.com/en-us/edu/series/a-guide-to-understanding-common-mode-chokes/
+
+Common Mode Filter = Tiefpass
+
+Differential-Mode: Strom nur auf einer Leitung von Quelle zu Last, und auf Gegenüberliegender Seite genauso zurück. 
+
+-> Gegenläufige, GLEICHE Ströme erzeugen eine Induktivität, welche sich gegenseitig auslöscht. Also können Gegenläufige, GLEICHE Signale den Filter passieren.
+
+
+Common-Mode: Der Strom fliesst in die Selbe Richtung auf beiden Seiten der Spule. Dadurch Canceln sich die dabei entstehenden Magnetfeldern auf beiden Seiten des Filters aus. 
+
+-> Gegenläufige, GLEICHE Signale, passieren die Spule in gleicher Form. Dadurch wird erreicht, dass sich die MAgnetfelder der Spule für diese Signale um ein vielfaches erhöhen. -> Höhere Induktivität, höhere Impedanz!
+
+
+
+
+https://www.youtube.com/watch?v=QAZo9xbiflQ
+
+
+
+
+
+https://www.youtube.com/watch?v=JQkNqY0I02Y
+
+
+
+
+
+https://www.omicron-lab.com/fileadmin/assets/Bode_100/Articles_UseCases/EMV_Filter_Design_V2.pdf
+
+Leitungsgebundene Störungen: Unterschieden zwischen CommonMode(CMM) und Differential Mode(DM) Störungen.
+
+Abgestrahlte Störungen: Ursache von CMM Strömen, die auf Kabeln/Leitern fliessen.DM Störungen bis ca. 1MHz
+
+CMM bis über 100 MHz
+
+
+
+
+
+DM Störungen kann man als U-Quellen beschreiben. Dämpfung durch Höhere Impedanzen im Frequenzgang
+CM druch Stromquellen. Impedanz reduziert Strom nicht direkt. Allerdings kann hohe Impedanz dafür sorgen, dass Strom woanders hin umgeleitet wird (durch niedrige Impedanz)
+
+DM Strungen könnte man noch durch Mathe erahnen, CM Störungen meist parasitärer Ursache und entsprechend schwer zu ermitteln -> Trial & Error
+
+Wird die Streuinduktivität geschickt gewählt, kann auf differenzielle Drosseln verzichtet werden +  zusätzlichiche CMM Dämpfung in hohen Frequenzen. 
+Streuindiktivität kann nicht sättigen und wirkt deshalb bei hohen Strömen
+
+Kondensator zwischen die beiden Leitungen: Ausnutzen der Streuinduktivität als DM-Filter 
+
+
+gute bsp: 
+
+WCM 7060FASF-102-LM
+3A, 1.2kOHM bei 100MHz
+0.33 CHF
+
+WCM 7060FASF-701-LM
+4A, 700OHM bei 100MHz
+0.33 CHF
+
+ACM7060-701-2PL-TL01
+4A, 700OHM bei 100MHz
+0.80CHF

@@ -1,0 +1,97 @@
+
+
+Über Polyfuse
+
+bsp: 1206L010/30
+
+-> Rmin = 1.5 OHM
+-> Rmax = 10 OHM
+Itrip = 250mA
+
+->> dU Spannungsbfall = Rmin * 165mA = 0.2475V // eher viel anbetracht dessen dass es jetzt schon knapp ist mit 5.2V Speisung
+
+Auslösezeit = 1.5sek
+-> Imax = U * 1.5OHM = 3.3A
+-> Ibeg = U * 10 OHM = 0.52A 
+
+// Ihold allerdings schon bei 100mA !!!!!!!!!!!!!!!! zu niedrig (das ist Spannung bei der Fuse garantiert nicht auslöst)
+
+
+
+
+
+alternative: 
+SMD0805B020TF
+Rmax = 2.3
+
+
+oder 
+PTS120616V025
+Rmax = 5
+
+
+
+schwierig -> mir ist der Strom zu hoch bei 5V
+
+Rds on = 95mOHM häufig
+-> dU = 165mA * 95mOHM = 15mV Abfall
+
+AP21410 / AP21510
+ILimit: 4/500mA
+
+
+
+USB Switch
+AP2151AW-7
+0.12994chf
+Ilim 800mA SOT-25
+
+AP2151DWG-7
+0.14201chf
+Ilim 800mA SOT-25
+
+AP2141SG-13
+0.212chf
+Ilim 800mA SOT-25
+
+######
+
+MIC2005A-2YM6-TR
+0.23CHF
+500mA Limit
+SOT-23-6	
+Rdson = 170mOHM -> 30mV abfall
+
+NCP380HMU05AATBG
+0.196CHF 
+500mA - 2.1A Limit Adj
+
+NCP380HSN05AAT1G
+0.248CHF
+Gleich wie oben nur als TSOP-5
+
+TPS2051CDBVR 
+SEEEEHR Ähnlich MIC2005A-2YM6-TR
+0.24434CHF
+SOT-23-5
+500mA Limit
+Rdson = 100mOHM -> 20mV abfall
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
