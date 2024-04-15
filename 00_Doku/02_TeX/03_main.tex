@@ -9,6 +9,10 @@
 \usepackage[utf8]{inputenc} % UTF-8 Formatierung
 \usepackage[T1]{fontenc} % Umlaute
 
+\usepackage{csquotes}
+\usepackage{biblatex}
+\addbibresource{04_references.bib}
+
 \usepackage{parskip} % Absätze anders Formatieren
 \usepackage[table]{xcolor} % Paket für Farben in Tabellen
 
@@ -51,46 +55,87 @@ Einleitung hier
 
 Etwas zu Randbedingungen
 
-\section{Methodik und Vorgehen}
-In einem ersten Schritt wurde die Aufgabenstellung in verschiedene Bausteine unterteilt, 
-die im Rahmen eines morphologischen Kastens zusammengesetzt wurden. Um die verschiedenen Konzepte
-auch im Rahmen der Herstellungskosten miteinander vergleichen zu können, wurden die verschiedenen Bausteine
-auch preislich bewertet. Diese Vorkalkulationen beziehen sich auf Preise und Daten, welche entweder vom Hersteller zur
-Verfügung gestellt werden, oder von Onlinehändlern -- z.B. von Mouser.ch -- bezogen werden können.
-
-Im folgenden wird kurz auf einzelne Bausteine eingegangen, bevor die verschiednen Varianten kurz beschrieben werden. 
-
-\subsection{Morphologischer Kasten}
-
-\begin{itemize}
-    \item Chip:
-        \\ Hier wurden verschiedene Treiberbausteine Betrachtet. Sowohl vollintegrierte Treiber, welche
-        sowohl einen Indexer, einen Rampgenerator mitsamt Endstufe besitzen als auch einfache Indexer mit
-        Endstufen. Aus diesem Punkt folgen zwangsläufig auch I\textsubscript{rms} und U\textsubscript{out}. 
-    \item Anzahl Erweiterungen: 
-        \\ Dieser Punkt stellt die Erweiterbarkeit der verschiedenen Konzepte dar. Maximal gewünscht sind
-        nur 2.
-    \item Schnittstelle zu IOe2:
-        \\ Die betrifft die Schnittstelle, über welche das Board Konfigueritert und angesteuert werden kann.
-    \item Adresskonfiguration, SPI Erweiterungen
-        \\ Die eindeutige Identifikation der Erweiterung stellt ein Problem dar, welches es zu lösen gibt. 
-        Als Möglichkeiten wurde eine einfache inkrementelle verbindung der Schnittstellen, ein binäres "herunterzählen" 
-        über Logikbausteine als auch eine Adresskonfiguration über Shiftregister als möglich gezeigt. 
-    \item 
-\end{itemize}
-
-
-
-
 \section{Theoretische Grundlagen}
-
+\subsection{Methodik}
 Etwas zu meinen Recherchen
 \subsection{I2C Bus}
 \subsection{SPI Bus}
 
 \section{Konzepterstellung}
+Anhand eines Moprhologischen Kastens sind für die verschiedenen Teilprobleme verschiedene Umsetzungsmöglichkeiten
+zusammengesetzt worden. Um die verschiedenen Konzepte auch angesichts der Herstellungskosten miteinander vergleichen und abwägen 
+zu können, wurden die Kosten der einzelnen Blöcke bewertet. Diese Vorkalkulationen beziehen sich auf Preise und Daten, welche entweder vom 
+Hersteller zur Verfügung gestellt werden, oder von Onlinehändlern -- z.B. von Mouser.ch -- bezogen werden können.
+
+\subsection{Morphologischer Kasten}
+
+Im folgenden wird kurz auf einzelne Bausteine eingegangen, bevor die verschiednen Konzepte kurz beschrieben werden:
+
+\begin{itemize}
+    \item Chip:
+        \\ Hier wurden verschiedene Treiberbausteine betrachtet. Sowohl vollintegrierte Treiber, welche
+        sowohl einen Indexer, einen Rampgenerator mitsamt Endstufe besitzen als auch einfache Indexer mit
+        Endstufen. Aus diesem Punkt folgen zwangsläufig sowohl I\textsubscript{rms}, U\textsubscript{out}, als auch ob
+        eine externe Endstufe benötigt wird. 
+    \item Anzahl Erweiterungen: 
+        \\ Dieser Punkt stellt die Erweiterbarkeit der verschiedenen Konzepte dar. Maximal gewünscht sind
+        nur 2. 
+    \item Schnittstelle zu IOe2:
+        \\ Die betrifft die Schnittstelle, über welche das Board Konfigueritert und angesteuert werden kann. Zur auswahl stehen hierbei 
+        Konfigurationen über SPI-Bus, I2C-Bus, UART oder eine Indexer-Schnittstelle, bei welcher das IOe Schritte und Richtung vorgeben muss.
+    \item Adresskonfiguration, SPI Erweitern
+        \\ Umgesetzt werden könnte dies durch inkrementelles Verbinden der Schnittstille von der Eingangs- zur Ausgangsschnittstelle,
+        Oder durch spezielle logikverknüpfungen, welche entsprechende Chipselect oder Adressleitungen auf die richtigen Pins setzen. 
+    \item Anschluss von Sensoren
+        \\ Es ist möglich Sensoren wie z.B. Referenzschalter an eigene Eingänge auf dem Erweiterungsboard anzuschliessen, über Leiterbahnen an 
+        die Schnittstelle weiterzugeben oder sogar eine Elektronik auf dem Board zu haben, welche die Signale direkt verarbeiten könnte. 
+    \item Auswertung der Encoder
+        \\ Der Encoder ist kein Pflichtkriterium. Trotzdem ist es möglich diesen entweder auf der Erweiterung selbst auszuwerten oder ihn an die
+        Schnittstelle weiterzugeben. 
+    \item Ramp Generation
+        \\ Die Aufgabe der Bandplanung kann vom IOe selbst übernommen werden, oder aber von einer Elektronik, welche sich auf der Erweiterung befindet.
+        Dies könnte z.B. eine MCU sein, oder aber ein Integrierter Treiber von z.B. Trinac. 
+    \item Spannungsversorgung
+        \\ Die Spannungsversorgung könnte bei entsprechender Filterung vom IOe2 bezogen werden oder aber externb mit einem Anschlusskabel gespiesen werden.
+\end{itemize}
+
+\subsection{Konzepte}
+Im Anhang sind alle Konzepte nochmals aufgellistet. 
+
+Die Konzepte teilen alle die Eigenschaft, dass sie durch die inkrementell verbundenen Leiter Erweiterbar gestaltet wurden. Die Adresskonfiguration durch
+Schieberegister oder Logische Verknüpfung zeigt sich als unnötigen Kostenpunkt, auf den aufgrund des geringen Budgets gerne verzichtet wurde. 
+Im Wesentlichen haben sich 4 Konzepte zur finalen Bewertung herauskristallisiert:
+\begin{itemize}
+    \item Konzept 1
+    \\ Der vollintegrierte Treiber von Trinamic, TMC5240, kann Motoren mit einer Spannung von 24V bei 2.1A treiben. Konfigueritert wird dieser Treiber
+    via SPI-Bus. Dieser Treiber bringt von Haus aus sowohl eine Möglichkeit zur Encoderauswertung als auch zur Sensorenauswertung mit. Das Board wird
+    mit einer eigenen 24V Schnittstelle mit Strom versorgt. Die Bandplanung wird in diesem Fall ebenfalls vom Trinamic Chip übernommen.
+    \item Konzept 7
+    \\ Die TI-Treiber DRV8462 besitzen lediglich einen Indexer als auch die Endstufe integriert im Chip. Ein grosser Vorteil dieser Variante stellt die 
+    Chipfamilie von TI dar, bei welcher 3 verschiedene Chips 1:1 austauschbar sind und somit also auch Secondsource Themen in gewisser Weise schon abgehandelt sind.
+    Um möglichst nahe an die vorgegebenen 30CHF heranzukommen, beziehen diese Konzepte ihre Speisung direkt über die IOe2 Schnittstelle und verwenden ebenfalls
+    die Digitalen Eingänge des IOe2's um Sensoren auszuwerten. Der Encoder muss hierbei über die Schittstelle an das IOe2 weitergereicht werden. 
+    \item Konzept 8
+    \\ Dieses Konzept ist eine Mischen aus Konzept 1 \& 7. Hier wurde wieder der ADI-Trinamic Chip TMC5240 eingesetzt, welcher weiter oben schon beschrieben wurde.
+    Um mit dem Preis günstiger zu werden ist besitzt dieses Konzept keine eigene Speisung mehr, sondern wird ebenfalls über die Schnittstelle zum IOe2 gespiesen. 
+    Die Digitalen Eingänge werden ebenfalls vom IOe2 bezogen. Ein grosser Vorteil dieses Chips ist die Möglichkeit, Encoder auswerten zu können. Aus diesem Grund 
+    ist diese Schnittstelle vorhanden geblieben. 
+\end{itemize}
+
+\subsection{Bewertung und Entscheid}
+Die Konzepte sind anhand einer Nutzwertanalyse gegeneinander verglichen und vorbewertet worden. Da im Pflichtenheft die Herstellungskosten als ein besonders
+hohes und wichtiges Kriterium herausgehoben wurden, sind diese Punkte nochmals höher bewertet als alle anderen Kriterien. 
+
+Im Übrigen sind die Kriterien nach dem Schema Basiskriterium = 4, X1 = 3, X2 = 2 und X3 = 1 gewichtet. Bei dieser Bewertung sind die oben genannten 3 Konzepte als 
+am besten bewertet worden. In einer grösseren Runde, gemeinsam mit den Projektbetreuern, ist die Entscheidung für das Konzept Nr. 7 gefallen und wird im weiteren
+ausgearbeitet.  
+
 \section{Randbedingungen}
-\section{Komponentenauswahl}
+
+Da das Erweiterungsboard die Speisung aus von der Schnittstelle zum IOe2 bezieht, muss sichergestellt werden, dass sich dort auch genug Pins befinden um 
+den geforderten Strom zu führen. Laut Datenblatt können pro Pin mindestens 1.7A geführt werden \cite[siehe][S. 11]{Datasheet_Interface}
+
+\section{Komponentenauswahl und Dimensionierungen}
 \section{Analyse und Entscheid}
 
 \section{Schemaerstellung}
@@ -99,7 +144,7 @@ Etwas zu meinen Recherchen
 
 \section{Fazit und Ausblick}
 
-%\bibliography{reference}
+\printbibliography
 
 \section{Anhang}
 

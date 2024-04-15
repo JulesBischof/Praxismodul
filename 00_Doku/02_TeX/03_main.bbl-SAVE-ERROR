@@ -1,0 +1,42 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{Datasheet_Interface}{online}{}
+      \list{institution}{1}{%
+        {TE Connectivity}%
+      }
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labeltitlesource}{title}
+      \field{title}{SMC 1.27 mm Connectors Datasheet}
+      \field{type}{Datasheet}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=erni-smc-1.27mm-connectors-ds&DocType=Data+Sheet&DocLang=English&DocFormat=pdf&PartCntxt=154765-E
+      \endverb
+      \verb{url}
+      \verb https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=erni-smc-1.27mm-connectors-ds&DocType=Data+Sheet&DocLang=English&DocFormat=pdf&PartCntxt=154765-E
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

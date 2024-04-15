@@ -1,0 +1,53 @@
+SECTION DesignInfo
+LIST IndependentLibraries
+VALUE "DIR [W] . (CAD)"
+ENDLIST
+KEY CentralLibrary ""
+KEY PinComponents "./speccomp.ini"
+KEY BorderSymbols "./borders_os.ini"
+KEY Bus_Contents "./busconts.ini"
+KEY SheetsEditMode "1"
+KEY NumberingType "INDEPTH"
+KEY OrderFileName ".\"
+KEY FrontEndSnapshot "DxD"
+KEY DxD_Version "PADSVX.2.7"
+KEY LayoutID "PADS100"
+KEY CnsFileName ""
+KEY PcbCfgFileName "%SDD_HOME%/standard/templates/dxdesigner/netlist/pads100.cfg"
+KEY PropertyDefinitions "%SDD_HOME%/standard/templates/dxdesigner/netlist/netlist.prp"
+KEY HandlePipedPartNumbers "FALSE"
+KEY PartListerCfg "TMC_PartLister_Compress"
+ENDSECTION
+SECTION iCDB
+LIST Designs
+VALUE "Board1"
+ENDLIST
+KEY DedicatedServerName ""
+KEY iCDBDir ".\database"
+ENDSECTION
+SECTION FlowSettings
+KEY FlowType "NETLIST"
+ENDSECTION
+SECTION ICXProInfo
+KEY ICXProDir "./Highspeed/ICXPro"
+ENDSECTION
+SECTION ProjectBackup
+KEY ConfigFile ".\ProjectBackup\ProjectBackup.cfg"
+ENDSECTION
+SECTION Template_Design
+KEY ConfigType "PCB"
+KEY SchematicConflict "FE"
+KEY CADBackAnno "0"
+KEY SchematicDesignBackAnno "0"
+KEY SchematicDesignStatus "0"
+KEY SearchPathScheme "(Default)"
+ENDSECTION
+SECTION Board1
+KEY ConfigType "PCB"
+KEY SchematicConflict "FE"
+KEY CADBackAnno "0"
+KEY SchematicDesignBackAnno "0"
+KEY SchematicDesignStatus "0"
+KEY SearchPathScheme "(Default)"
+KEY RootBlock "TMC5240-EVAL"
+ENDSECTION

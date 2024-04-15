@@ -1,0 +1,248 @@
+[2022.01.07 12:50:30] [0000m.00s.019ms] [0] WELCOME
+[2022.01.07 12:50:30] [0000m.00s.020ms] [1] iCDB Server ver.2.207, qgLvIY/Eg4ge+fhn3Vi3jQ, build:15449124 created 2019-12-19 14:24:55, sources stamp:qgLvIY/Eg4ge+fhn3Vi3jQ
+[2022.01.07 12:50:30] [0000m.00s.020ms] [1] Restricted Copyright Siemens 2020. All Rights Reserved.
+[2022.01.07 12:50:30] [0000m.00s.020ms] [1] Base flow version [VX.2.7]
+[2022.01.07 12:50:30] [0000m.00s.020ms] [1] Install Id [2119024], Flow Id [PADS VX.2.7], Full Flow Name [PADS VX.2.7], Exact Access Date [2020/02/01]
+[2022.01.07 12:50:30] [0000m.00s.020ms] [1] UPDATE Install Info, Install Id [2207457], UPDATE Name [PADS VX.2.7 - Update 4]
+[2022.01.07 12:50:30] [0000m.00s.030ms] [1] Machine [EST-LT-39626]  IP [10.82.196.117,127.0.0.1,192.168.1.110]  User [Margus.Maantoa]  PID [26020]
+[2022.01.07 12:50:30] [0000m.00s.030ms] [1] Operating system [Microsoft Windows 10 Enterprise Edition, 64-bit (build 19042)]
+[2022.01.07 12:50:30] [0000m.00s.030ms] [1] Current working dir [C:\work\PADS designs\RX27\TMC5240ATJ-EVAL\V10\CAD]
+[2022.01.07 12:50:30] [0000m.00s.030ms] [1] PATH [C:\MentorGraphics\PADSVX.2.7\SDD_HOME\sim\systemvision\win32\modelsim\win32pe;%SV_HOME%\sim\systemvision\win32\adms\vx2.7\ixw\bin;%SV_HOME%\sim\systemvision\win32\adms\vx2.7\ixw\lib;%SV_HOME%\sim\systemvision\win32\adms\vx2.7\questasim\v10.7a_1\tcl\lib_save;%SV_HOME%\sim\systemvision\win32\adms\vx2.7\questasim\v10.7a_1\win64;C:\MentorGraphics\PADSVX.2.7\SDD_HOME\common\win32\bin;C:\MentorGraphics\PADSVX.2.7\SDD_HOME\common\win32\lib;C:\MentorGraphics\PADSVX.2.7\SDD_HOME\common\win64\lib;C:\MentorGraphics\PADSVX.2.7\SDD_HOME\common\win32\jre\default\bin;C:\MentorGraphics\PADSVX.2.7\MGC_HOME.ixn\bin;C:\MentorGraphics\PADSVX.2.7\MGC_HOME.ixn\lib;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Program Files\PuTTY\;C:\Program Files (x86)\IDEMIA\AWP\Dlls;C:\Program Files\IDEMIA\AWP\Dlls;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;%SYSTEMROOT%\System32\OpenSSH\;C:\Users\margus.maantoa\AppData\Local\Microsoft\WindowsApps;C:\MentorGraphics\PADSVX.2.7\SDD_HOME\CAMCAD;C:\Users\margus.maantoa\AppData\Local\Programs\Git\cmd;C:\Users\margus.maantoa\AppData\Local\Programs\MiKTeX\miktex\bin\x64\;;%SV_HOME%\sim\systemvision\win32\adms\vx2.7\bin]
+[2022.01.07 12:50:30] [0000m.00s.030ms] [1] SDD_HOME [C:\MentorGraphics\PADSVX.2.7\SDD_HOME] on file system [NTFS]
+[2022.01.07 12:50:30] [0000m.00s.030ms] [1] SDD_PLATFORM [win32]
+[2022.01.07 12:50:30] [0000m.00s.030ms] [1] WDIR [C:\PADS Projects;C:\MentorGraphics\PADSVX.2.7\SDD_HOME\standard;]
+[2022.01.07 12:50:30] [0000m.00s.030ms] [1] Local iCDB working dir [C:\PADS Projects\iCDB] on file system [NTFS]
+[2022.01.07 12:50:30] [0000m.00s.030ms] [2] S: Loading config files
+[2022.01.07 12:50:30] [0000m.00s.039ms] [1] Config file [C:\work\PADS designs\RX27\TMC5240ATJ-EVAL\V10\CAD\database\cdbsvr\Server.cfg] not found
+[2022.01.07 12:50:30] [0000m.00s.043ms] [3] S: Config loaded
+[2022.01.07 12:50:30] [0000m.00s.050ms] [0] S: Project path [C:\work\PADS designs\RX27\TMC5240ATJ-EVAL\V10\CAD\database] on file system [NTFS]
+[2022.01.07 12:50:30] [0000m.00s.050ms] [0] S: Project file (.prj) path [C:\work\PADS designs\RX27\TMC5240ATJ-EVAL\V10\CAD\TMC5240ATJ-EVAL_V10.prj] on file system [NTFS]
+[2022.01.07 12:50:30] [0000m.00s.050ms] [1] S: WARNING: Database auto-repair support DISABLED
+[2022.01.07 12:50:30] [0000m.00s.050ms] [0] S: Single-user mode (auto)
+[2022.01.07 12:50:30] [0000m.00s.050ms] [0] S: Event polling mode autodetection
+[2022.01.07 12:50:30] [0000m.00s.051ms] [0] S: Started up automatically by iCDB Client: EST-LT-39626:Margus.Maantoa:35236
+[2022.01.07 12:50:30] [0000m.00s.051ms] [0] S: Auto close mode
+[2022.01.07 12:50:30] [0000m.00s.051ms] [0] S: Database ID [a85d-40d1-bca7-96c9-65a1-8d1c-5a18-d160-dd60-18a5-747e-6c8c]
+[2022.01.07 12:50:30] [0000m.00s.051ms] [0] PathTranslator: BEGIN dumping
+[2022.01.07 12:50:30] [0000m.00s.051ms] [0] PathTranslator: Local -> global path prefix list
+[2022.01.07 12:50:30] [0000m.00s.051ms] [0] PathTranslator: [Y:\] -> [\\TMCDCServer.trinamic.local\yLaufwerk\]
+[2022.01.07 12:50:30] [0000m.00s.051ms] [0] PathTranslator: Global -> local path prefix list
+[2022.01.07 12:50:30] [0000m.00s.051ms] [0] PathTranslator: [\\TMCDCServer.trinamic.local\yLaufwerk\] -> [Y:\]
+[2022.01.07 12:50:30] [0000m.00s.051ms] [0] PathTranslator: END dumping
+[2022.01.07 12:50:30] [0000m.00s.051ms] [0] S: START
+[2022.01.07 12:50:30] [0000m.00s.051ms] [0] S: Server startup lock file created
+[2022.01.07 12:50:30] [0000m.00s.051ms] [0] S: Listening for client connections on port [10001]
+[2022.01.07 12:50:30] [0000m.00s.052ms] [0] S: Server network ID [EST-LT-39626:10.82.196.117,192.168.1.110,EST-LT-39626,EST-LT-39626.maxim-ic.internal:10001]
+[2022.01.07 12:50:30] [0000m.00s.052ms] [0] S: Server GUID [2632-73df-f5ee-0d2a-6fa1-8d1c-fa18-d160-95ce-08a5-747e-6c8c]
+[2022.01.07 12:50:30] [0000m.00s.052ms] [0] S: Project GUID [a85d-40d1-bca7-96c9-65a1-8d1c-5a18-d160-dd60-18a5-747e-6c8c]
+[2022.01.07 12:50:30] [0000m.00s.061ms] [0] S: Wrote data to server address file
+[2022.01.07 12:50:30] [0000m.00s.061ms] [0] S: Server startup lock file removed
+[2022.01.07 12:50:30] [0000m.00s.061ms] [1] ProjectBackupManager: Setting project file (.prj) path: [C:\work\PADS designs\RX27\TMC5240ATJ-EVAL\V10\CAD\TMC5240ATJ-EVAL_V10.prj]
+[2022.01.07 12:50:30] [0000m.00s.136ms] [0] S: Plugins loaded: [PIM] [ENetGen70] 
+[2022.01.07 12:50:30] [0000m.00s.136ms] [1] ServerToolkit: INFO: Plugin not found in SDD_ICDB_BIN [C:\MentorGraphics\PADSVX.2.7\SDD_HOME\iCDB\win32\bin]
+[2022.01.07 12:50:30] [0000m.00s.136ms] [1] ServerToolkit: INFO: Plugin not found in SDD_COMMON_BIN [C:\MentorGraphics\PADSVX.2.7\SDD_HOME\common\win32\bin]
+[2022.01.07 12:50:30] [0000m.00s.137ms] [1] ServerToolkit: INFO: Plugin not found in PATH
+[2022.01.07 12:50:30] [0000m.00s.137ms] [1] ServerToolkit: INFO: Plugin not found in CWD
+[2022.01.07 12:50:30] [0000m.00s.137ms] [1] ServerToolkit: INFO: returning just plugin exe name!
+[2022.01.07 12:50:30] [0000m.00s.137ms] [0] S: Local disc access time: 34 us
+[2022.01.07 12:50:30] [0000m.00s.137ms] [0] S: File server access time: 33 us
+[2022.01.07 12:50:30] [0000m.00s.137ms] [0] Single file [C:\work\PADS designs\RX27\TMC5240ATJ-EVAL\V10\CAD\database\icdb.dat] size [771408 (753.3 kB)]
+[2022.01.07 12:50:30] [0000m.00s.137ms] [1] Single file [C:\work\PADS designs\RX27\TMC5240ATJ-EVAL\V10\CAD\database\icdb.dat] opened in read-write mode
+[2022.01.07 12:50:30] [0000m.00s.138ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2022.01.07 12:50:30] [0000m.00s.138ms] [0] Database GUARD OK: [771408]
+[2022.01.07 12:50:30] [0000m.00s.138ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2022.01.07 12:50:30] [0000m.00s.138ms] [0] Database GUARD OK: [771408]
+[2022.01.07 12:50:30] [0000m.00s.141ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2022.01.07 12:50:30] [0000m.00s.142ms] [0] Database GUARD OK: [771408]
+[2022.01.07 12:50:30] [0000m.00s.142ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2022.01.07 12:50:30] [0000m.00s.142ms] [0] Database GUARD OK: [771408]
+[2022.01.07 12:50:30] [0000m.00s.142ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2022.01.07 12:50:30] [0000m.00s.142ms] [0] Database GUARD OK: [771408]
+[2022.01.07 12:50:30] [0000m.00s.142ms] [0] SingleFile: [db6f-d593-8b3e-d4b6] SFI version check [1009] [1009]
+[2022.01.07 12:50:30] [0000m.00s.150ms] [0] SingleFile: [db6f-d593-8b3e-d4b6] Database SFI header has been read in [8ms 525us]
+[2022.01.07 12:50:30] [0000m.00s.155ms] [0] iCDB Server PI: Server & plugin session [254]
+[2022.01.07 12:50:30] [0000m.00s.155ms] [0] iCDB Server PI: Opening database [C:\work\PADS designs\RX27\TMC5240ATJ-EVAL\V10\CAD\database]
+[2022.01.07 12:50:30] [0000m.00s.155ms] [0] iCDB Server PI: Database [C:\work\PADS designs\RX27\TMC5240ATJ-EVAL\V10\CAD\database] opened
+[2022.01.07 12:50:30] [0000m.00s.176ms] [0] iCDB Database: Checking existence of constraint definitions
+[2022.01.07 12:50:30] [0000m.00s.176ms] [0] iCDB Database: Checking constraint definitions version
+[2022.01.07 12:50:30] [0000m.00s.197ms] [1] iCDB Database: Constraint definitions version [ce_ee.cns=7.10.69] up to date
+[2022.01.07 12:50:30] [0000m.00s.201ms] [0] iCDB Server PI: Initializing plugins
+[2022.01.07 12:50:30] [0000m.00s.202ms] [0] iCDB Server PI: Plugins initialized
+[2022.01.07 12:50:30] [0000m.00s.202ms] [0] S: iCDB database loaded
+[2022.01.07 12:50:30] [0000m.00s.203ms] [0] S: Starting threads
+[2022.01.07 12:50:30] [0000m.00s.203ms] [0] BT: Listening for broadcast messages on port [10000]
+[2022.01.07 12:50:30] [0000m.00s.203ms] [1] CMT: There are no clients - waiting [10 seconds]
+[2022.01.07 12:50:30] [0000m.00s.204ms] [0] IT: Session [255] for host [EST-LT-39626] user [Margus.Maantoa] client type[0] clsvrPluginID[0] with process ID [35236] created
+[2022.01.07 12:50:30] [0000m.00s.206ms] [1] SC[255]: Registered sub-client [DxD] with ID [1] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:30] [0000m.00s.207ms] [0] MWT: WindowProc: WM_NCCREATE
+[2022.01.07 12:50:30] [0000m.00s.215ms] [0] IT: iCDB Server Monitor session [1] for host [EST-LT-39626] user [Margus.Maantoa] with process ID [30564] created
+[2022.01.07 12:50:30] [0000m.00s.215ms] [1] DMT: There are [1] iCDB Server Monitor connected now
+[2022.01.07 12:50:30] [0000m.00s.258ms] [1] SC[255]: Registered sub-client [TransactionRollbackSubClient] with ID [2] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:30] [0000m.00s.277ms] [1] SC[255]: Registered sub-client [SymbolEditor] with ID [3] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:30] [0000m.00s.281ms] [1] SC[255]: Registered sub-client [SelectionHolder] with ID [4] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:30] [0000m.00s.306ms] [1] SC[255]: Registered sub-client [Core::DesignListener-665943024-0] with ID [5] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:30] [0000m.00s.308ms] [1] CMT: There are [1] clients now: 255
+[2022.01.07 12:50:30] [0000m.00s.308ms] [1] SC[255]: Registered sub-client [BlockCacheDxD:665943120] with ID [6] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:30] [0000m.00s.310ms] [1] SC[255]: Registered sub-client [Core::NetFlatData-18908] with ID [7] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:30] [0000m.00s.314ms] [1] SC[255]: Registered sub-client [SystemDesignDll] with ID [8] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:30] [0000m.00s.318ms] [1] SC[255]: UnRegistered sub-client [SystemDesignDll] with ID [8] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:30] [0000m.00s.320ms] [1] SC[255]: Registered sub-client [SystemDesignDll] with ID [9] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:32] [0000m.02s.075ms] [1] SC[255]: Registered sub-client [DesignSearcher2] with ID [10] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:32] [0000m.02s.083ms] [1] SC[255]: Registered sub-client [HdlProject] with ID [11] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:32] [0000m.02s.089ms] [1] SC[255]: Registered sub-client [Navigator] with ID [12] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:32] [0000m.02s.099ms] [1] SC[255]: Registered sub-client [OutputWindow] with ID [13] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:32] [0000m.02s.102ms] [1] SC[255]: Registered sub-client [PlaceDevice] with ID [14] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:32] [0000m.02s.117ms] [1] SC[255]: Registered sub-client [FFSearch_RBHost] with ID [15] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:32] [0000m.02s.120ms] [1] SC[255]: Registered sub-client [LocalSymbolsDataProvider] with ID [16] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:33] [0000m.02s.904ms] [1] SC[255]: Registered sub-client [FFSSelListener] with ID [17] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:33] [0000m.02s.906ms] [1] SC[255]: Registered sub-client [SAE] with ID [18] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:33] [0000m.02s.921ms] [1] SC[255]: Registered sub-client [DxConstraints] with ID [19] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:33] [0000m.02s.925ms] [1] SC[255]: Registered sub-client [CCZAddin] with ID [20] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:33] [0000m.02s.928ms] [1] SC[255]: Registered sub-client [DxThumbnails] with ID [21] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:33] [0000m.02s.932ms] [1] SC[255]: Registered sub-client [MyParts] with ID [22] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:33] [0000m.02s.944ms] [1] SC[255]: Registered sub-client [PinsList] with ID [23] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:34] [0000m.04s.531ms] [1] SC[255]: Registered sub-client [SV] with ID [24] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:34] [0000m.04s.706ms] [1] SC[255]: Registered sub-client [toolboxes] with ID [25] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:35] [0000m.04s.731ms] [1] SC[255]: Registered sub-client [ProjectIntegrationIcdbCacheDxD:426895576] with ID [26] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:35] [0000m.04s.803ms] [1] SC[255]: Registered sub-client [SheetConnectorsCacheDxD:1641552635] with ID [27] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:35] [0000m.04s.819ms] [1] SC[255]: Registered sub-client [NetsNamesCollectorDxD:1641552635] with ID [28] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:35] [0000m.04s.844ms] [1] SC[255]: Registered sub-client [PartReplaceUtils] with ID [29] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:35] [0000m.04s.848ms] [1] SC[255]: Registered sub-client [PartReplaceUtilsSelectionListener] with ID [30] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:35] [0000m.04s.866ms] [1] SC[255]: Registered sub-client [xprob] with ID [31] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:35] [0000m.05s.013ms] [1] SC[255]: Registered sub-client [StartServerClient89ac] with ID [32] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:35] [0000m.05s.013ms] [1] SC[255]: UnRegistered sub-client [StartServerClient89ac] with ID [32] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:38] [0000m.08s.294ms] [1] SC[255]: Registered sub-client [ObjectHolder_675698960] with ID [33] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:38] [0000m.08s.297ms] [1] SC[255]: Registered sub-client [BlockCacheDxD:677745640] with ID [34] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:38] [0000m.08s.299ms] [1] SC[255]: Registered sub-client [GlobalNetAliasUpdater_675699064] with ID [35] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:38] [0000m.08s.301ms] [1] SC[255]: Registered sub-client [IcdbNetProcessorSubClientDxD:674996344] with ID [36] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:38] [0000m.08s.323ms] [1] SC[255]: Registered sub-client [ObjectHolder_675690120] with ID [37] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:38] [0000m.08s.325ms] [1] SC[255]: Registered sub-client [BlockCache_savepoint[SCH][288230380446679042][4971973997206962178][10:48:49_1-7-22][1641552638]:421604696] with ID [38] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:38] [0000m.08s.327ms] [1] SC[255]: Registered sub-client [GlobalNetAliasUpdater_673922080] with ID [39] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:38] [0000m.08s.330ms] [1] SC[255]: Registered sub-client [IcdbNetProcessorSubClient_savepoint[SCH][288230380446679042][4971973997206962178][10:48:49_1-7-22][1641552638]:420496024] with ID [40] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:38] [0000m.08s.331ms] [1] SC[255]: UnRegistered sub-client [GlobalNetAliasUpdater_673922080] with ID [39] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:38] [0000m.08s.331ms] [1] SC[255]: UnRegistered sub-client [BlockCache_savepoint[SCH][288230380446679042][4971973997206962178][10:48:49_1-7-22][1641552638]:421604696] with ID [38] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:38] [0000m.08s.331ms] [1] SC[255]: UnRegistered sub-client [ObjectHolder_675690120] with ID [37] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:38] [0000m.08s.331ms] [1] SC[255]: UnRegistered sub-client [IcdbNetProcessorSubClient_savepoint[SCH][288230380446679042][4971973997206962178][10:48:49_1-7-22][1641552638]:420496024] with ID [40] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:38] [0000m.08s.334ms] [1] SC[255]: Registered sub-client [ObjectHolder_351366888] with ID [41] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:38] [0000m.08s.336ms] [1] SC[255]: Registered sub-client [BlockCache_savepoint[SCH][288230380446679042][4971973997206962178][10:48:49_1-7-22][1641552638]:421606904] with ID [42] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:38] [0000m.08s.339ms] [1] SC[255]: Registered sub-client [GlobalNetAliasUpdater_351366992] with ID [43] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:38] [0000m.08s.341ms] [1] SC[255]: Registered sub-client [IcdbNetProcessorSubClient_savepoint[SCH][288230380446679042][4971973997206962178][10:48:49_1-7-22][1641552638]:420495016] with ID [44] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:38] [0000m.08s.350ms] [1] SC[255]: UnRegistered sub-client [GlobalNetAliasUpdater_351366992] with ID [43] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:38] [0000m.08s.350ms] [1] SC[255]: UnRegistered sub-client [BlockCache_savepoint[SCH][288230380446679042][4971973997206962178][10:48:49_1-7-22][1641552638]:421606904] with ID [42] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:38] [0000m.08s.350ms] [1] SC[255]: UnRegistered sub-client [ObjectHolder_351366888] with ID [41] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:38] [0000m.08s.351ms] [1] SC[255]: UnRegistered sub-client [IcdbNetProcessorSubClient_savepoint[SCH][288230380446679042][4971973997206962178][10:48:49_1-7-22][1641552638]:420495016] with ID [44] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:38] [0000m.08s.354ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\work\PADS designs\RX27\TMC5240ATJ-EVAL\V10\CAD\database\s12\cdbblks\ff00000010000050.blk\blkatl.v] - auto-saving it
+[2022.01.07 12:50:38] [0000m.08s.354ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\work\PADS designs\RX27\TMC5240ATJ-EVAL\V10\CAD\database\s12\cdbblks\ff00000010000050.blk\dxdatl.v] - auto-saving it
+[2022.01.07 12:50:38] [0000m.08s.354ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\work\PADS designs\RX27\TMC5240ATJ-EVAL\V10\CAD\database\s12\cdbcatlg\catlgatl.v] - auto-saving it
+[2022.01.07 12:50:38] [0000m.08s.354ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\work\PADS designs\RX27\TMC5240ATJ-EVAL\V10\CAD\database\s12\cdbcatlg\grpatl.v] - auto-saving it
+[2022.01.07 12:50:38] [0000m.08s.354ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\work\PADS designs\RX27\TMC5240ATJ-EVAL\V10\CAD\database\s12\cdbcatlg\grpobj] - auto-saving it
+[2022.01.07 12:50:38] [0000m.08s.354ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\work\PADS designs\RX27\TMC5240ATJ-EVAL\V10\CAD\database\s12\cdbcmpcache\cmpatl.v] - auto-saving it
+[2022.01.07 12:50:38] [0000m.08s.355ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\work\PADS designs\RX27\TMC5240ATJ-EVAL\V10\CAD\database\s12\cdbcmpcache\dxdatl.v] - auto-saving it
+[2022.01.07 12:50:38] [0000m.08s.355ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\work\PADS designs\RX27\TMC5240ATJ-EVAL\V10\CAD\database\s12\cdbcmps\cmpatl.v] - auto-saving it
+[2022.01.07 12:50:38] [0000m.08s.355ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\work\PADS designs\RX27\TMC5240ATJ-EVAL\V10\CAD\database\s12\cdbcnfgs\ff00000010000050.blk\cesatl.v] - auto-saving it
+[2022.01.07 12:50:38] [0000m.08s.355ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\work\PADS designs\RX27\TMC5240ATJ-EVAL\V10\CAD\database\s12\cdbcnfgs\ff00000010000050.blk\cnfgatl.v] - auto-saving it
+[2022.01.07 12:50:38] [0000m.08s.355ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\work\PADS designs\RX27\TMC5240ATJ-EVAL\V10\CAD\database\s12\cdbcnfgs\ff00000010000050.blk\varatl.v] - auto-saving it
+[2022.01.07 12:50:38] [0000m.08s.355ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\work\PADS designs\RX27\TMC5240ATJ-EVAL\V10\CAD\database\s12\oryg] - auto-saving it
+[2022.01.07 12:50:38] [0000m.08s.355ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\work\PADS designs\RX27\TMC5240ATJ-EVAL\V10\CAD\database\s12\params] - auto-saving it
+[2022.01.07 12:50:38] [0000m.08s.355ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\work\PADS designs\RX27\TMC5240ATJ-EVAL\V10\CAD\database\s12\uids] - auto-saving it
+[2022.01.07 12:50:40] [0000m.09s.839ms] [1] SC[255]: Registered sub-client [DxDbSearch] with ID [45] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:44] [0000m.13s.996ms] [1] SC[255]: UnRegistered sub-client [DesignSearcher2] with ID [10] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:46] [0000m.16s.509ms] [0] IT: Session [256] for host [EST-LT-39626] user [Margus.Maantoa] client type[0] clsvrPluginID[0] with process ID [35800] created
+[2022.01.07 12:50:46] [0000m.16s.510ms] [1] SC[256]: Registered sub-client [pcbui] with ID [1] for session ID [256] host [EST-LT-39626] user [Margus.Maantoa] process ID [35800]
+[2022.01.07 12:50:46] [0000m.16s.575ms] [1] CMT: There are [2] clients now: 255, 256
+[2022.01.07 12:50:47] [0000m.16s.817ms] [0] IT: Session [257] for host [EST-LT-39626] user [Margus.Maantoa] client type[0] clsvrPluginID[0] with process ID [11612] created
+[2022.01.07 12:50:47] [0000m.16s.818ms] [1] SC[257]: Registered sub-client [icdb2wir] with ID [1] for session ID [257] host [EST-LT-39626] user [Margus.Maantoa] process ID [11612]
+[2022.01.07 12:50:47] [0000m.16s.891ms] [1] SC[257]: UnRegistered sub-client [icdb2wir] with ID [1] for session ID [257] host [EST-LT-39626] user [Margus.Maantoa] process ID [11612]
+[2022.01.07 12:50:47] [0000m.16s.901ms] [1] CMT: There are [3] clients now: 255, 256, 257
+[2022.01.07 12:50:47] [0000m.16s.901ms] [1] CMT: Removed client [257]
+[2022.01.07 12:50:47] [0000m.16s.901ms] [1] CMT: There are [2] clients now: 255, 256
+[2022.01.07 12:50:49] [0000m.18s.804ms] [0] IT: Session [258] for host [EST-LT-39626] user [Margus.Maantoa] client type[0] clsvrPluginID[0] with process ID [35536] created
+[2022.01.07 12:50:49] [0000m.18s.805ms] [1] SC[258]: Registered sub-client [PCBfwd/PCBbck] with ID [1] for session ID [258] host [EST-LT-39626] user [Margus.Maantoa] process ID [35536]
+[2022.01.07 12:50:49] [0000m.18s.871ms] [1] CMT: There are [3] clients now: 255, 256, 258
+[2022.01.07 12:50:50] [0000m.19s.856ms] [1] SC[258]: Registered sub-client [LSUDX_PCB] with ID [2] for session ID [258] host [EST-LT-39626] user [Margus.Maantoa] process ID [35536]
+[2022.01.07 12:50:50] [0000m.19s.883ms] [1] SC[258]: Registered sub-client [ObjectHolder_125676104] with ID [3] for session ID [258] host [EST-LT-39626] user [Margus.Maantoa] process ID [35536]
+[2022.01.07 12:50:50] [0000m.19s.885ms] [1] SC[258]: Registered sub-client [BlockCacheDxD:7371720] with ID [4] for session ID [258] host [EST-LT-39626] user [Margus.Maantoa] process ID [35536]
+[2022.01.07 12:50:50] [0000m.19s.888ms] [1] SC[258]: Registered sub-client [GlobalNetAliasUpdater_125676000] with ID [5] for session ID [258] host [EST-LT-39626] user [Margus.Maantoa] process ID [35536]
+[2022.01.07 12:50:50] [0000m.19s.890ms] [1] SC[258]: Registered sub-client [IcdbNetProcessorSubClientDxD:176087424] with ID [6] for session ID [258] host [EST-LT-39626] user [Margus.Maantoa] process ID [35536]
+[2022.01.07 12:50:50] [0000m.19s.937ms] [1] SC[258]: UnRegistered sub-client [PCBfwd/PCBbck] with ID [1] for session ID [258] host [EST-LT-39626] user [Margus.Maantoa] process ID [35536]
+[2022.01.07 12:50:50] [0000m.19s.937ms] [1] SCL: WARNING: Sub-client [1] of client [258] has locked objects while trying to unregister - auto unlocking
+[2022.01.07 12:50:50] [0000m.19s.937ms] [1] SC[258]: WARNING: Trying to get data for non existing sub-client [1]
+[2022.01.07 12:50:50] [0000m.19s.937ms] [1] SC[258]: UnRegistered sub-client [LSUDX_PCB] with ID [2] for session ID [258] host [EST-LT-39626] user [Margus.Maantoa] process ID [35536]
+[2022.01.07 12:50:50] [0000m.19s.965ms] [1] SC[255]: UnRegistered sub-client [GlobalNetAliasUpdater_675699064] with ID [35] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:50] [0000m.19s.965ms] [1] SC[255]: UnRegistered sub-client [BlockCacheDxD:677745640] with ID [34] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:50] [0000m.19s.966ms] [1] SC[255]: UnRegistered sub-client [ObjectHolder_675698960] with ID [33] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:50] [0000m.19s.966ms] [1] SC[255]: UnRegistered sub-client [IcdbNetProcessorSubClientDxD:674996344] with ID [36] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:50] [0000m.19s.970ms] [1] SC[255]: Registered sub-client [ObjectHolder_678552984] with ID [46] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:50] [0000m.19s.972ms] [1] SC[255]: Registered sub-client [BlockCacheDxD:677746024] with ID [47] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:50] [0000m.19s.974ms] [1] SC[255]: Registered sub-client [GlobalNetAliasUpdater_678551424] with ID [48] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:50] [0000m.19s.976ms] [1] SC[255]: Registered sub-client [IcdbNetProcessorSubClientDxD:676307072] with ID [49] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:50] [0000m.20s.012ms] [0] SC[258]: ERROR: Receiving command: Socket Exception: Category[Socket] Error[ReceiveFailed] Description[Could not receive data from peer; ECONNRESET - Connection reset by peer.] Message[Receiving network command with timeout]
+[2022.01.07 12:50:50] [0000m.20s.012ms] [0] SC[258]: Setting status to OFFLINE
+[2022.01.07 12:50:50] [0000m.20s.072ms] [1] CMT: Trying to remove local offline client [258] because of single-user mode
+[2022.01.07 12:50:50] [0000m.20s.072ms] [0] CRT[258]: EXIT: Because of client death
+[2022.01.07 12:50:50] [0000m.20s.073ms] [1] CMT: Removed local offline client [258] because of single-user mode
+[2022.01.07 12:50:50] [0000m.20s.073ms] [1] CMT: There are [2] clients now: 255, 256
+[2022.01.07 12:50:50] [0000m.20s.105ms] [1] SC[256]: UnRegistered sub-client [pcbui] with ID [1] for session ID [256] host [EST-LT-39626] user [Margus.Maantoa] process ID [35800]
+[2022.01.07 12:50:50] [0000m.20s.180ms] [1] CMT: Removed client [256]
+[2022.01.07 12:50:50] [0000m.20s.181ms] [1] CMT: There are [1] clients now: 255
+[2022.01.07 12:50:50] [0000m.20s.686ms] [1] SC[255]: Registered sub-client [DesignSearcher2] with ID [50] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:52] [0000m.22s.035ms] [1] SC[255]: UnRegistered sub-client [SystemDesignDll] with ID [9] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:52] [0000m.22s.170ms] [1] SC[255]: UnRegistered sub-client [DesignSearcher2] with ID [50] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:52] [0000m.22s.305ms] [1] SC[255]: UnRegistered sub-client [GlobalNetAliasUpdater_678551424] with ID [48] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:52] [0000m.22s.305ms] [1] SC[255]: UnRegistered sub-client [BlockCacheDxD:677746024] with ID [47] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:52] [0000m.22s.306ms] [1] SC[255]: UnRegistered sub-client [ObjectHolder_678552984] with ID [46] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:52] [0000m.22s.306ms] [1] SC[255]: UnRegistered sub-client [IcdbNetProcessorSubClientDxD:676307072] with ID [49] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:52] [0000m.22s.312ms] [1] SC[255]: UnRegistered sub-client [Navigator] with ID [12] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:52] [0000m.22s.312ms] [1] SC[255]: UnRegistered sub-client [FFSSelListener] with ID [17] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:52] [0000m.22s.313ms] [1] SC[255]: UnRegistered sub-client [LocalSymbolsDataProvider] with ID [16] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:52] [0000m.22s.412ms] [1] SC[255]: UnRegistered sub-client [FFSearch_RBHost] with ID [15] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:52] [0000m.22s.429ms] [1] SC[255]: UnRegistered sub-client [MyParts] with ID [22] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:52] [0000m.22s.430ms] [1] SC[255]: UnRegistered sub-client [toolboxes] with ID [25] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:52] [0000m.22s.469ms] [1] SC[255]: UnRegistered sub-client [SelectionHolder] with ID [4] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:52] [0000m.22s.469ms] [1] SC[255]: UnRegistered sub-client [PartReplaceUtils] with ID [29] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:52] [0000m.22s.469ms] [1] SC[255]: UnRegistered sub-client [PartReplaceUtilsSelectionListener] with ID [30] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:54] [0000m.24s.020ms] [1] SC[255]: UnRegistered sub-client [ProjectIntegrationIcdbCacheDxD:426895576] with ID [26] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:54] [0000m.24s.022ms] [1] SC[255]: UnRegistered sub-client [Core::NetFlatData-18908] with ID [7] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:54] [0000m.24s.023ms] [1] SC[255]: UnRegistered sub-client [BlockCacheDxD:665943120] with ID [6] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:54] [0000m.24s.024ms] [1] SC[255]: UnRegistered sub-client [Core::DesignListener-665943024-0] with ID [5] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:54] [0000m.24s.025ms] [1] SC[255]: UnRegistered sub-client [SheetConnectorsCacheDxD:1641552635] with ID [27] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:54] [0000m.24s.026ms] [1] SC[255]: UnRegistered sub-client [NetsNamesCollectorDxD:1641552635] with ID [28] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:54] [0000m.24s.033ms] [1] SC[255]: UnRegistered sub-client [TransactionRollbackSubClient] with ID [2] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:54] [0000m.24s.034ms] [1] SC[255]: UnRegistered sub-client [DxD] with ID [1] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:54] [0000m.24s.081ms] [1] SC[255]: UnRegistered sub-client [xprob] with ID [31] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:54] [0000m.24s.082ms] [1] SC[255]: UnRegistered sub-client [SymbolEditor] with ID [3] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:54] [0000m.24s.149ms] [1] SC[255]: UnRegistered sub-client [OutputWindow] with ID [13] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:54] [0000m.24s.175ms] [1] SC[255]: UnRegistered sub-client [DxDbSearch] with ID [45] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:54] [0000m.24s.194ms] [1] SC[255]: UnRegistered sub-client [SAE] with ID [18] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:54] [0000m.24s.230ms] [1] SC[255]: UnRegistered sub-client [CCZAddin] with ID [20] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:54] [0000m.24s.236ms] [1] SC[255]: UnRegistered sub-client [DxThumbnails] with ID [21] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:50:54] [0000m.24s.400ms] [1] SC[255]: UnRegistered sub-client [SV] with ID [24] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:51:00] [0000m.29s.844ms] [0] DFAMT: File server access time: 72 us
+[2022.01.07 12:51:00] [0000m.30s.255ms] [1] SC[255]: UnRegistered sub-client [DxConstraints] with ID [19] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:51:00] [0000m.30s.287ms] [1] SC[255]: UnRegistered sub-client [PinsList] with ID [23] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:51:00] [0000m.30s.356ms] [1] SC[255]: UnRegistered sub-client [PlaceDevice] with ID [14] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:51:00] [0000m.30s.387ms] [1] SC[255]: UnRegistered sub-client [HdlProject] with ID [11] for session ID [255] host [EST-LT-39626] user [Margus.Maantoa] process ID [35236]
+[2022.01.07 12:51:00] [0000m.30s.438ms] [1] CMT: Removed client [255]
+[2022.01.07 12:51:00] [0000m.30s.438ms] [1] CMT: There are no clients left - waiting [1 seconds]
+[2022.01.07 12:51:01] [0000m.30s.842ms] [1] SDL: The last connected iCDB Server Monitor [1] is waiting for server close
+[2022.01.07 12:51:02] [0000m.31s.746ms] [0] CMT: Starting server auto-close
+[2022.01.07 12:51:02] [0000m.31s.809ms] [0] S: Closing server
+[2022.01.07 12:51:02] [0000m.31s.903ms] [0] iCDB Server PI: Closing plugins
+[2022.01.07 12:51:02] [0000m.31s.903ms] [0] iCDB Server PI: Plugins closed
+[2022.01.07 12:51:02] [0000m.31s.903ms] [0] iCDB Server PI: Unloading database
+[2022.01.07 12:51:02] [0000m.31s.903ms] [0] iCDB Server PI: Saving storage
+[2022.01.07 12:51:02] [0000m.31s.904ms] [0] iCDB Server PI: Closing database
+[2022.01.07 12:51:02] [0000m.31s.907ms] [1] iCDB Server PI: Stats: Database defragmentation: max[3] avg[1] holes[13%] data[79%]
+[2022.01.07 12:51:02] [0000m.31s.907ms] [1] iCDB Server PI: Stats: Database file size [831664 (812.2 kB)]
+[2022.01.07 12:51:02] [0000m.31s.922ms] [0] iCDB Server PI: Database closed
+[2022.01.07 12:51:02] [0000m.31s.923ms] [1] iCDB Server PI: Stats: Total iCDB execution time: [49105] ticks
+[2022.01.07 12:51:02] [0000m.31s.923ms] [1] iCDB Server PI: Stats: Total iCDB execution time: [4910] microseconds
+[2022.01.07 12:51:02] [0000m.31s.923ms] [1] iCDB Server PI: Stats: Total iCDB commands count: [54]
+[2022.01.07 12:51:02] [0000m.31s.923ms] [1] iCDB Server PI: Stats: Average iCDB speed:        [10996] commands per second
+[2022.01.07 12:51:02] [0000m.31s.923ms] [1] iCDB Server PI: Stats: Mem[50180096]
+[2022.01.07 12:51:02] [0000m.31s.923ms] [1] iCDB Server PI: Stats: MemPeak[55820288]
+[2022.01.07 12:51:02] [0000m.31s.948ms] [0] Single file [C:\work\PADS designs\RX27\TMC5240ATJ-EVAL\V10\CAD\database\icdb.dat] closed with size [831664 (812.2 kB)]
+[2022.01.07 12:51:02] [0000m.31s.951ms] [1] SD[1]: Removing the last connected iCDB Server Monitor [1]
+[2022.01.07 12:51:02] [0000m.32s.187ms] [0] MWT: Destroy the shutdown block reason.
+[2022.01.07 12:51:02] [0000m.32s.191ms] [0] MWT: STOP
+[2022.01.07 12:51:02] [0000m.32s.191ms] [0] S: STOP

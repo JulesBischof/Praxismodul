@@ -1,0 +1,84 @@
+*
+*
+G04 PADS VX.2.7 Build Number: 15549477 generated Gerber (RS-274-X) file*
+G04 PC Version=2.1*
+*
+%IN "TMC5240-SA-DEV_V10.pcb"*%
+*
+%MOIN*%
+*
+%FSLAX35Y35*%
+*
+*
+*
+*
+G04 PC Standard Apertures*
+*
+*
+G04 Thermal Relief Aperture macro.*
+%AMTER*
+1,1,$1,0,0*
+1,0,$1-$2,0,0*
+21,0,$3,$4,0,0,45*
+21,0,$3,$4,0,0,135*
+%
+*
+*
+G04 Annular Aperture macro.*
+%AMANN*
+1,1,$1,0,0*
+1,0,$2,0,0*
+%
+*
+*
+G04 Odd Aperture macro.*
+%AMODD*
+1,1,$1,0,0*
+1,0,$1-0.005,0,0*
+%
+*
+*
+G04 PC Custom Aperture Macros*
+*
+*
+*
+*
+*
+*
+G04 PC Aperture Table*
+*
+%ADD011C,0.00787*%
+%ADD042C,0.001*%
+*
+*
+*
+*
+G04 PC Circuitry*
+G04 Layer Name TMC5240-SA-DEV_V10.pcb - circuitry*
+%LPD*%
+*
+*
+G04 PC Custom Flashes*
+G04 Layer Name TMC5240-SA-DEV_V10.pcb - flashes*
+%LPD*%
+*
+*
+G04 PC Circuitry*
+G04 Layer Name TMC5240-SA-DEV_V10.pcb - circuitry*
+%LPD*%
+*
+G54D11*
+G01X393701Y409449D02*
+G75*
+G03X409449Y393701I15748J-0D01*
+G01X594488*
+G03X610236Y409449I0J15748*
+G01Y712598*
+G03X594488Y728346I-15748J0*
+G01X409449*
+G03X393701Y712598I-0J-15748*
+G01Y409449*
+G54D42*
+G74*
+X0Y0D02*
+M02*

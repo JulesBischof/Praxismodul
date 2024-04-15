@@ -1,0 +1,264 @@
+[2021.08.09 10:27:14] [0000m.00s.033ms] [0] WELCOME
+[2021.08.09 10:27:14] [0000m.00s.034ms] [1] iCDB Server ver.2.207, qgLvIY/Eg4ge+fhn3Vi3jQ, build:15449124 created 2019-12-19 14:24:55, sources stamp:qgLvIY/Eg4ge+fhn3Vi3jQ
+[2021.08.09 10:27:14] [0000m.00s.034ms] [1] Restricted Copyright Siemens 2020. All Rights Reserved.
+[2021.08.09 10:27:14] [0000m.00s.034ms] [1] Base flow version [VX.2.7]
+[2021.08.09 10:27:14] [0000m.00s.034ms] [1] Install Id [2119024], Flow Id [PADS VX.2.7], Full Flow Name [PADS VX.2.7], Exact Access Date [2020/02/01]
+[2021.08.09 10:27:14] [0000m.00s.034ms] [1] UPDATE Install Info, Install Id [2207457], UPDATE Name [PADS VX.2.7 - Update 4]
+[2021.08.09 10:27:14] [0000m.00s.053ms] [1] Machine [EST-LT-39622]  IP [10.82.194.16,127.0.0.1,192.168.1.125]  User [Heikki.Hiiuvaein]  PID [14072]
+[2021.08.09 10:27:14] [0000m.00s.053ms] [1] Operating system [Microsoft Windows 10 Enterprise Edition, 64-bit (build 18363)]
+[2021.08.09 10:27:14] [0000m.00s.054ms] [1] Current working dir [C:\work\PADS designs\TMC5240-SA-DEV\TMC5240-SA-DEV\V10\CAD]
+[2021.08.09 10:27:14] [0000m.00s.054ms] [1] PATH [C:\MentorGraphics\PADSVX.2.7\SDD_HOME\common\win32\bin;C:\MentorGraphics\PADSVX.2.7\SDD_HOME\common\win32\lib;C:\MentorGraphics\PADSVX.2.7\SDD_HOME\common\win64\lib;C:\MentorGraphics\PADSVX.2.7\SDD_HOME\common\win32\jre\default\bin;C:\MentorGraphics\PADSVX.2.7\MGC_HOME.ixn\bin;C:\MentorGraphics\PADSVX.2.7\MGC_HOME.ixn\lib;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\IDEMIA\AWP\Dlls;C:\Program Files\IDEMIA\AWP\Dlls;C:\Users\heikki.hiiuvaein\AppData\Local\Microsoft\WindowsApps;C:\MentorGraphics\PADSVX.2.7\SDD_HOME\CAMCAD;C:\Users\heikki.hiiuvaein\AppData\Local\Programs\MiKTeX\miktex\bin\x64\;C:\Program Files\Inkscape\bin]
+[2021.08.09 10:27:14] [0000m.00s.054ms] [1] SDD_HOME [C:\MentorGraphics\PADSVX.2.7\SDD_HOME] on file system [NTFS]
+[2021.08.09 10:27:14] [0000m.00s.054ms] [1] SDD_PLATFORM [win32]
+[2021.08.09 10:27:14] [0000m.00s.054ms] [1] WDIR [C:\PADS Projects;C:\MentorGraphics\PADSVX.2.7\SDD_HOME\standard;]
+[2021.08.09 10:27:14] [0000m.00s.054ms] [1] Local iCDB working dir [C:\PADS Projects\iCDB] on file system [NTFS]
+[2021.08.09 10:27:14] [0000m.00s.055ms] [2] S: Loading config files
+[2021.08.09 10:27:14] [0000m.00s.078ms] [1] Config file [C:\work\PADS designs\TMC5240-SA-DEV\TMC5240-SA-DEV\V10\CAD\database\cdbsvr\Server.cfg] not found
+[2021.08.09 10:27:14] [0000m.00s.081ms] [3] S: Config loaded
+[2021.08.09 10:27:14] [0000m.00s.095ms] [0] S: Project path [C:\work\PADS designs\TMC5240-SA-DEV\TMC5240-SA-DEV\V10\CAD\database] on file system [NTFS]
+[2021.08.09 10:27:14] [0000m.00s.095ms] [0] S: Project file (.prj) path [C:\work\PADS designs\TMC5240-SA-DEV\TMC5240-SA-DEV\V10\CAD\TMC5240-SA-DEV_V10.prj] on file system [NTFS]
+[2021.08.09 10:27:14] [0000m.00s.095ms] [1] S: WARNING: Database auto-repair support DISABLED
+[2021.08.09 10:27:14] [0000m.00s.095ms] [0] S: Single-user mode (auto)
+[2021.08.09 10:27:14] [0000m.00s.096ms] [0] S: Event polling mode autodetection
+[2021.08.09 10:27:14] [0000m.00s.096ms] [0] S: Started up automatically by iCDB Client: EST-LT-39622:Heikki.Hiiuvaein:17096
+[2021.08.09 10:27:14] [0000m.00s.096ms] [0] S: Auto close mode
+[2021.08.09 10:27:14] [0000m.00s.096ms] [0] S: Database ID [01f3-73b2-fa49-9fe3-8c64-1f0e-c641-f060-3d6a-08c5-517e-6c8c]
+[2021.08.09 10:27:14] [0000m.00s.096ms] [0] PathTranslator: BEGIN dumping
+[2021.08.09 10:27:14] [0000m.00s.096ms] [0] PathTranslator: Local -> global path prefix list
+[2021.08.09 10:27:14] [0000m.00s.096ms] [0] PathTranslator: [Y:\] -> [\\TMCDCServer.trinamic.local\yLaufwerk\]
+[2021.08.09 10:27:14] [0000m.00s.096ms] [0] PathTranslator: Global -> local path prefix list
+[2021.08.09 10:27:14] [0000m.00s.096ms] [0] PathTranslator: [\\TMCDCServer.trinamic.local\yLaufwerk\] -> [Y:\]
+[2021.08.09 10:27:14] [0000m.00s.096ms] [0] PathTranslator: END dumping
+[2021.08.09 10:27:14] [0000m.00s.096ms] [0] S: START
+[2021.08.09 10:27:14] [0000m.00s.097ms] [0] S: Server startup lock file created
+[2021.08.09 10:27:14] [0000m.00s.098ms] [0] S: Listening for client connections on port [10000]
+[2021.08.09 10:27:14] [0000m.00s.106ms] [0] S: Server network ID [EST-LT-39622:10.82.194.16,192.168.1.125,EST-LT-39622,EST-LT-39622.maxim-ic.internal:10000]
+[2021.08.09 10:27:14] [0000m.00s.106ms] [0] S: Server GUID [ad97-1e5f-18f2-c817-2d8d-0118-d8d0-1160-7a0e-08c5-517e-6c8c]
+[2021.08.09 10:27:14] [0000m.00s.106ms] [0] S: Project GUID [01f3-73b2-fa49-9fe3-8c64-1f0e-c641-f060-3d6a-08c5-517e-6c8c]
+[2021.08.09 10:27:14] [0000m.00s.114ms] [0] S: Wrote data to server address file
+[2021.08.09 10:27:14] [0000m.00s.114ms] [0] S: Server startup lock file removed
+[2021.08.09 10:27:14] [0000m.00s.114ms] [1] ProjectBackupManager: Setting project file (.prj) path: [C:\work\PADS designs\TMC5240-SA-DEV\TMC5240-SA-DEV\V10\CAD\TMC5240-SA-DEV_V10.prj]
+[2021.08.09 10:27:15] [0000m.00s.724ms] [0] S: Plugins loaded: [PIM] [ENetGen70] 
+[2021.08.09 10:27:15] [0000m.00s.724ms] [1] ServerToolkit: INFO: Plugin not found in SDD_ICDB_BIN [C:\MentorGraphics\PADSVX.2.7\SDD_HOME\iCDB\win32\bin]
+[2021.08.09 10:27:15] [0000m.00s.725ms] [1] ServerToolkit: INFO: Plugin not found in SDD_COMMON_BIN [C:\MentorGraphics\PADSVX.2.7\SDD_HOME\common\win32\bin]
+[2021.08.09 10:27:15] [0000m.00s.725ms] [1] ServerToolkit: INFO: Plugin not found in PATH
+[2021.08.09 10:27:15] [0000m.00s.726ms] [1] ServerToolkit: INFO: Plugin not found in CWD
+[2021.08.09 10:27:15] [0000m.00s.726ms] [1] ServerToolkit: INFO: returning just plugin exe name!
+[2021.08.09 10:27:15] [0000m.00s.726ms] [0] S: Local disc access time: 82 us
+[2021.08.09 10:27:15] [0000m.00s.726ms] [0] S: File server access time: 78 us
+[2021.08.09 10:27:15] [0000m.00s.743ms] [0] Single file [C:\work\PADS designs\TMC5240-SA-DEV\TMC5240-SA-DEV\V10\CAD\database\icdb.dat] size [603712 (589.6 kB)]
+[2021.08.09 10:27:15] [0000m.00s.744ms] [1] Single file [C:\work\PADS designs\TMC5240-SA-DEV\TMC5240-SA-DEV\V10\CAD\database\icdb.dat] opened in read-write mode
+[2021.08.09 10:27:15] [0000m.00s.744ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2021.08.09 10:27:15] [0000m.00s.744ms] [0] Database GUARD OK: [603712]
+[2021.08.09 10:27:15] [0000m.00s.746ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2021.08.09 10:27:15] [0000m.00s.746ms] [0] Database GUARD OK: [603712]
+[2021.08.09 10:27:15] [0000m.00s.747ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2021.08.09 10:27:15] [0000m.00s.747ms] [0] Database GUARD OK: [603712]
+[2021.08.09 10:27:15] [0000m.00s.747ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2021.08.09 10:27:15] [0000m.00s.747ms] [0] Database GUARD OK: [603712]
+[2021.08.09 10:27:15] [0000m.00s.748ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2021.08.09 10:27:15] [0000m.00s.748ms] [0] Database GUARD OK: [603712]
+[2021.08.09 10:27:15] [0000m.00s.748ms] [0] SingleFile: [bac2-9a86-1309-fcd0] SFI version check [1009] [1009]
+[2021.08.09 10:27:15] [0000m.00s.769ms] [0] SingleFile: [bac2-9a86-1309-fcd0] Database SFI header has been read in [20ms 936us]
+[2021.08.09 10:27:15] [0000m.00s.779ms] [0] iCDB Server PI: Server & plugin session [153]
+[2021.08.09 10:27:15] [0000m.00s.779ms] [0] iCDB Server PI: Opening database [C:\work\PADS designs\TMC5240-SA-DEV\TMC5240-SA-DEV\V10\CAD\database]
+[2021.08.09 10:27:15] [0000m.00s.779ms] [0] iCDB Server PI: Database [C:\work\PADS designs\TMC5240-SA-DEV\TMC5240-SA-DEV\V10\CAD\database] opened
+[2021.08.09 10:27:15] [0000m.00s.907ms] [0] iCDB Database: Checking existence of constraint definitions
+[2021.08.09 10:27:15] [0000m.00s.907ms] [0] iCDB Database: Checking constraint definitions version
+[2021.08.09 10:27:15] [0000m.00s.961ms] [1] iCDB Database: Constraint definitions version [ce_ee.cns=7.10.69] up to date
+[2021.08.09 10:27:15] [0000m.00s.969ms] [0] iCDB Server PI: Initializing plugins
+[2021.08.09 10:27:15] [0000m.00s.969ms] [0] iCDB Server PI: Plugins initialized
+[2021.08.09 10:27:15] [0000m.00s.970ms] [0] S: iCDB database loaded
+[2021.08.09 10:27:15] [0000m.00s.971ms] [0] S: Starting threads
+[2021.08.09 10:27:15] [0000m.00s.972ms] [0] BT: Listening for broadcast messages on port [10000]
+[2021.08.09 10:27:15] [0000m.00s.972ms] [1] CMT: There are no clients - waiting [10 seconds]
+[2021.08.09 10:27:15] [0000m.00s.976ms] [0] IT: Session [154] for host [EST-LT-39622] user [Heikki.Hiiuvaein] client type[0] clsvrPluginID[0] with process ID [17096] created
+[2021.08.09 10:27:15] [0000m.00s.984ms] [0] MWT: WindowProc: WM_NCCREATE
+[2021.08.09 10:27:15] [0000m.00s.996ms] [1] SC[154]: Registered sub-client [DxD] with ID [1] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:27:15] [0000m.01s.073ms] [1] CMT: There are [1] clients now: 154
+[2021.08.09 10:27:15] [0000m.01s.122ms] [1] SC[154]: Registered sub-client [TransactionRollbackSubClient] with ID [2] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:27:16] [0000m.01s.170ms] [1] SC[154]: Registered sub-client [SymbolEditor] with ID [3] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:27:16] [0000m.01s.178ms] [1] SC[154]: Registered sub-client [SelectionHolder] with ID [4] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:27:16] [0000m.01s.221ms] [1] SC[154]: Registered sub-client [Core::DesignListener-632174040-0] with ID [5] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:27:16] [0000m.01s.227ms] [1] SC[154]: Registered sub-client [BlockCacheDxD:632173176] with ID [6] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:27:16] [0000m.01s.232ms] [1] SC[154]: Registered sub-client [Core::NetFlatData-17541] with ID [7] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:27:16] [0000m.01s.246ms] [1] SC[154]: Registered sub-client [SystemDesignDll] with ID [8] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:27:16] [0000m.01s.252ms] [1] SC[154]: UnRegistered sub-client [SystemDesignDll] with ID [8] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:27:16] [0000m.01s.259ms] [1] SC[154]: Registered sub-client [SystemDesignDll] with ID [9] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:27:16] [0000m.01s.335ms] [1] PrjBackupMgr: Successfully created Project Backup [C:\work\PADS designs\TMC5240-SA-DEV\TMC5240-SA-DEV\V10\CAD\ProjectBackup\backups\2021-08-09 10.27.15 - auto.zip] with GUID [ecfe-dd2c-1eb3-63dc-3d8d-0119-d8d0-1160-f7ae-08c5-517e-6c8c]
+[2021.08.09 10:27:16] [0000m.01s.366ms] [0] PrjBackupMgr: Removing excessive backup:  BackupGUID[8206-d917-8995-aac1-798c-f01d-98cf-0160-7909-08c5-517e-6c8c] CreationTime[Sunday, August 08, 2021 12:05:43] Type[Autosave] Creator[iCDB Server (2021-08-08 15.05.42-26916)] ApplicationName[iCDB Server (2021-08-08 15.05.42-26916)] UserName[Heikki.Hiiuvaein] MachineName[EST-LT-39622] Description[Autosave] FullFlowName[PADS VX.2.7; PADS VX.2.7 - Update 4] FlowId[PADSVX.2.7] GBSInstallId[2119024; 2207457] GBSBuildId[15449124] IcdbVersion[3800] ReferenceLogFilePath[] BackupFilePath[C:\work\PADS designs\TMC5240-SA-DEV\TMC5240-SA-DEV\V10\CAD\ProjectBackup\backups\2021-08-08 15.05.43 - auto.zip] BackupFileSize[631086] Persistent[FALSE]
+[2021.08.09 10:27:16] [0000m.01s.378ms] [0] PrjBackupMgr: Project Backup file [C:\work\PADS designs\TMC5240-SA-DEV\TMC5240-SA-DEV\V10\CAD\ProjectBackup\backups\2021-08-08 15.05.43 - auto.zip] with GUID [8206-d917-8995-aac1-798c-f01d-98cf-0160-7909-08c5-517e-6c8c] removed
+[2021.08.09 10:27:16] [0000m.01s.380ms] [0] PrjBackupEngine: Successfully created backup:  BackupGUID[ecfe-dd2c-1eb3-63dc-3d8d-0119-d8d0-1160-f7ae-08c5-517e-6c8c] CreationTime[Monday, August 09, 2021 07:27:15] Type[Autosave] Creator[iCDB Server (2021-08-09 10.27.14-14072)] ApplicationName[iCDB Server (2021-08-09 10.27.14-14072)] UserName[Heikki.Hiiuvaein] MachineName[EST-LT-39622] Description[Autosave] FullFlowName[PADS VX.2.7; PADS VX.2.7 - Update 4] FlowId[PADSVX.2.7] GBSInstallId[2119024; 2207457] GBSBuildId[15449124] IcdbVersion[3800] ReferenceLogFilePath[] BackupFilePath[C:\work\PADS designs\TMC5240-SA-DEV\TMC5240-SA-DEV\V10\CAD\ProjectBackup\backups\2021-08-09 10.27.15 - auto.zip] BackupFileSize[642029] Persistent[FALSE]
+[2021.08.09 10:27:18] [0000m.03s.754ms] [1] SC[154]: Registered sub-client [DesignSearcher2] with ID [10] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:27:18] [0000m.03s.762ms] [1] SC[154]: Registered sub-client [HdlProject] with ID [11] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:27:18] [0000m.03s.770ms] [1] SC[154]: Registered sub-client [Navigator] with ID [12] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:27:18] [0000m.03s.786ms] [1] SC[154]: Registered sub-client [OutputWindow] with ID [13] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:27:18] [0000m.03s.791ms] [1] SC[154]: Registered sub-client [PlaceDevice] with ID [14] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:27:18] [0000m.03s.959ms] [1] SC[154]: Registered sub-client [FFSearch_RBHost] with ID [15] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:27:18] [0000m.03s.963ms] [1] SC[154]: Registered sub-client [LocalSymbolsDataProvider] with ID [16] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:27:20] [0000m.05s.315ms] [1] SC[154]: Registered sub-client [FFSSelListener] with ID [17] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:27:20] [0000m.05s.321ms] [1] SC[154]: Registered sub-client [SAE] with ID [18] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:27:20] [0000m.05s.345ms] [1] SC[154]: Registered sub-client [DxConstraints] with ID [19] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:27:20] [0000m.05s.351ms] [1] SC[154]: Registered sub-client [CCZAddin] with ID [20] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:27:20] [0000m.05s.357ms] [1] SC[154]: Registered sub-client [DxThumbnails] with ID [21] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:27:20] [0000m.05s.362ms] [1] SC[154]: Registered sub-client [MyParts] with ID [22] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:27:20] [0000m.05s.381ms] [1] SC[154]: Registered sub-client [PinsList] with ID [23] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:27:20] [0000m.05s.494ms] [1] SC[154]: Registered sub-client [toolboxes] with ID [24] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:27:20] [0000m.05s.537ms] [1] SC[154]: Registered sub-client [ProjectIntegrationIcdbCacheDxD:419579536] with ID [25] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:27:20] [0000m.05s.605ms] [1] SC[154]: Registered sub-client [SheetConnectorsCacheDxD:1628494040] with ID [26] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:27:20] [0000m.05s.624ms] [1] SC[154]: Registered sub-client [NetsNamesCollectorDxD:1628494040] with ID [27] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:27:20] [0000m.05s.661ms] [1] SC[154]: Registered sub-client [PartReplaceUtils] with ID [28] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:27:20] [0000m.05s.664ms] [1] SC[154]: Registered sub-client [PartReplaceUtilsSelectionListener] with ID [29] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:27:20] [0000m.05s.680ms] [1] SC[154]: Registered sub-client [xprob] with ID [30] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:27:20] [0000m.05s.805ms] [1] SC[154]: Registered sub-client [StartServerClient63a8] with ID [31] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:27:20] [0000m.05s.806ms] [1] SC[154]: UnRegistered sub-client [StartServerClient63a8] with ID [31] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:27:24] [0000m.10s.066ms] [1] SC[154]: Registered sub-client [ObjectHolder_630139920] with ID [32] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:27:24] [0000m.10s.070ms] [1] SC[154]: Registered sub-client [BlockCacheDxD:637771048] with ID [33] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:27:24] [0000m.10s.075ms] [1] SC[154]: Registered sub-client [GlobalNetAliasUpdater_630140024] with ID [34] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:27:24] [0000m.10s.080ms] [1] SC[154]: Registered sub-client [IcdbNetProcessorSubClientDxD:630050352] with ID [35] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:27:25] [0000m.10s.174ms] [1] SC[154]: Registered sub-client [ObjectHolder_638601528] with ID [36] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:27:25] [0000m.10s.179ms] [1] SC[154]: Registered sub-client [BlockCache_savepoint[SCH][288230380446679042][4971973997206962178][11:25:23_8-5-21][1628494045]:638063320] with ID [37] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:27:25] [0000m.10s.184ms] [1] SC[154]: Registered sub-client [GlobalNetAliasUpdater_638600696] with ID [38] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:27:25] [0000m.10s.190ms] [1] SC[154]: Registered sub-client [IcdbNetProcessorSubClient_savepoint[SCH][288230380446679042][4971973997206962178][11:25:23_8-5-21][1628494045]:638504616] with ID [39] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:27:25] [0000m.10s.192ms] [1] SC[154]: UnRegistered sub-client [GlobalNetAliasUpdater_638600696] with ID [38] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:27:25] [0000m.10s.192ms] [1] SC[154]: UnRegistered sub-client [BlockCache_savepoint[SCH][288230380446679042][4971973997206962178][11:25:23_8-5-21][1628494045]:638063320] with ID [37] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:27:25] [0000m.10s.193ms] [1] SC[154]: UnRegistered sub-client [ObjectHolder_638601528] with ID [36] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:27:25] [0000m.10s.193ms] [1] SC[154]: UnRegistered sub-client [IcdbNetProcessorSubClient_savepoint[SCH][288230380446679042][4971973997206962178][11:25:23_8-5-21][1628494045]:638504616] with ID [39] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:27:25] [0000m.10s.201ms] [1] SC[154]: Registered sub-client [ObjectHolder_638706560] with ID [40] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:27:25] [0000m.10s.206ms] [1] SC[154]: Registered sub-client [BlockCache_savepoint[SCH][288230380446679042][4971973997206962178][11:25:23_8-5-21][1628494045]:638063368] with ID [41] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:27:25] [0000m.10s.210ms] [1] SC[154]: Registered sub-client [GlobalNetAliasUpdater_638705728] with ID [42] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:27:25] [0000m.10s.215ms] [1] SC[154]: Registered sub-client [IcdbNetProcessorSubClient_savepoint[SCH][288230380446679042][4971973997206962178][11:25:23_8-5-21][1628494045]:638505904] with ID [43] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:27:25] [0000m.10s.241ms] [1] SC[154]: UnRegistered sub-client [GlobalNetAliasUpdater_638705728] with ID [42] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:27:25] [0000m.10s.242ms] [1] SC[154]: UnRegistered sub-client [BlockCache_savepoint[SCH][288230380446679042][4971973997206962178][11:25:23_8-5-21][1628494045]:638063368] with ID [41] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:27:25] [0000m.10s.242ms] [1] SC[154]: UnRegistered sub-client [ObjectHolder_638706560] with ID [40] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:27:25] [0000m.10s.243ms] [1] SC[154]: UnRegistered sub-client [IcdbNetProcessorSubClient_savepoint[SCH][288230380446679042][4971973997206962178][11:25:23_8-5-21][1628494045]:638505904] with ID [43] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:27:25] [0000m.10s.252ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\work\PADS designs\TMC5240-SA-DEV\TMC5240-SA-DEV\V10\CAD\database\s6\cdbblks\a900000010000050.blk\blkatl.v] - auto-saving it
+[2021.08.09 10:27:25] [0000m.10s.253ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\work\PADS designs\TMC5240-SA-DEV\TMC5240-SA-DEV\V10\CAD\database\s6\cdbblks\a900000010000050.blk\dxdatl.v] - auto-saving it
+[2021.08.09 10:27:25] [0000m.10s.253ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\work\PADS designs\TMC5240-SA-DEV\TMC5240-SA-DEV\V10\CAD\database\s6\cdbcatlg\catlgatl.v] - auto-saving it
+[2021.08.09 10:27:25] [0000m.10s.254ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\work\PADS designs\TMC5240-SA-DEV\TMC5240-SA-DEV\V10\CAD\database\s6\cdbcatlg\grpatl.v] - auto-saving it
+[2021.08.09 10:27:25] [0000m.10s.254ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\work\PADS designs\TMC5240-SA-DEV\TMC5240-SA-DEV\V10\CAD\database\s6\cdbcatlg\grpobj] - auto-saving it
+[2021.08.09 10:27:25] [0000m.10s.254ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\work\PADS designs\TMC5240-SA-DEV\TMC5240-SA-DEV\V10\CAD\database\s6\cdbcmpcache\cmpatl.v] - auto-saving it
+[2021.08.09 10:27:25] [0000m.10s.255ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\work\PADS designs\TMC5240-SA-DEV\TMC5240-SA-DEV\V10\CAD\database\s6\cdbcmpcache\dxdatl.v] - auto-saving it
+[2021.08.09 10:27:25] [0000m.10s.255ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\work\PADS designs\TMC5240-SA-DEV\TMC5240-SA-DEV\V10\CAD\database\s6\cdbcmps\cmpatl.v] - auto-saving it
+[2021.08.09 10:27:25] [0000m.10s.255ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\work\PADS designs\TMC5240-SA-DEV\TMC5240-SA-DEV\V10\CAD\database\s6\cdbcnfgs\a900000010000050.blk\cesatl.v] - auto-saving it
+[2021.08.09 10:27:25] [0000m.10s.256ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\work\PADS designs\TMC5240-SA-DEV\TMC5240-SA-DEV\V10\CAD\database\s6\cdbcnfgs\a900000010000050.blk\cnfgatl.v] - auto-saving it
+[2021.08.09 10:27:25] [0000m.10s.256ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\work\PADS designs\TMC5240-SA-DEV\TMC5240-SA-DEV\V10\CAD\database\s6\cdbcnfgs\a900000010000050.blk\varatl.v] - auto-saving it
+[2021.08.09 10:27:25] [0000m.10s.257ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\work\PADS designs\TMC5240-SA-DEV\TMC5240-SA-DEV\V10\CAD\database\s6\oryg] - auto-saving it
+[2021.08.09 10:27:25] [0000m.10s.257ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\work\PADS designs\TMC5240-SA-DEV\TMC5240-SA-DEV\V10\CAD\database\s6\params] - auto-saving it
+[2021.08.09 10:27:25] [0000m.10s.257ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\work\PADS designs\TMC5240-SA-DEV\TMC5240-SA-DEV\V10\CAD\database\s6\uids] - auto-saving it
+[2021.08.09 10:27:36] [0000m.21s.685ms] [0] DFAMT: File server access time: 87 us
+[2021.08.09 10:27:40] [0000m.25s.223ms] [1] SC[154]: Registered sub-client [ObjectHolder_842769496] with ID [44] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:27:40] [0000m.25s.227ms] [1] SC[154]: Registered sub-client [BlockCache_savepoint[SCH][288230380446679042][4971974001501929476][19:15:54_8-8-21][1628494060]:628995128] with ID [45] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:27:40] [0000m.25s.231ms] [1] SC[154]: Registered sub-client [GlobalNetAliasUpdater_842767520] with ID [46] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:27:40] [0000m.25s.235ms] [1] SC[154]: Registered sub-client [IcdbNetProcessorSubClient_savepoint[SCH][288230380446679042][4971974001501929476][19:15:54_8-8-21][1628494060]:842825176] with ID [47] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:27:40] [0000m.25s.237ms] [1] SC[154]: UnRegistered sub-client [GlobalNetAliasUpdater_842767520] with ID [46] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:27:40] [0000m.25s.238ms] [1] SC[154]: UnRegistered sub-client [BlockCache_savepoint[SCH][288230380446679042][4971974001501929476][19:15:54_8-8-21][1628494060]:628995128] with ID [45] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:27:40] [0000m.25s.240ms] [1] SC[154]: UnRegistered sub-client [ObjectHolder_842769496] with ID [44] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:27:40] [0000m.25s.240ms] [1] SC[154]: UnRegistered sub-client [IcdbNetProcessorSubClient_savepoint[SCH][288230380446679042][4971974001501929476][19:15:54_8-8-21][1628494060]:842825176] with ID [47] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:27:40] [0000m.25s.247ms] [1] SC[154]: Registered sub-client [ObjectHolder_842768144] with ID [48] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:27:40] [0000m.25s.251ms] [1] SC[154]: Registered sub-client [BlockCache_savepoint[SCH][288230380446679042][4971974001501929476][19:15:54_8-8-21][1628494060]:628995272] with ID [49] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:27:40] [0000m.25s.256ms] [1] SC[154]: Registered sub-client [GlobalNetAliasUpdater_842768352] with ID [50] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:27:40] [0000m.25s.259ms] [1] SC[154]: Registered sub-client [IcdbNetProcessorSubClient_savepoint[SCH][288230380446679042][4971974001501929476][19:15:54_8-8-21][1628494060]:842824280] with ID [51] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:27:40] [0000m.25s.758ms] [1] SC[154]: UnRegistered sub-client [GlobalNetAliasUpdater_842768352] with ID [50] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:27:40] [0000m.25s.759ms] [1] SC[154]: UnRegistered sub-client [BlockCache_savepoint[SCH][288230380446679042][4971974001501929476][19:15:54_8-8-21][1628494060]:628995272] with ID [49] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:27:40] [0000m.25s.760ms] [1] SC[154]: UnRegistered sub-client [ObjectHolder_842768144] with ID [48] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:27:40] [0000m.25s.760ms] [1] SC[154]: UnRegistered sub-client [IcdbNetProcessorSubClient_savepoint[SCH][288230380446679042][4971974001501929476][19:15:54_8-8-21][1628494060]:842824280] with ID [51] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:27:40] [0000m.25s.798ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\work\PADS designs\TMC5240-SA-DEV\TMC5240-SA-DEV\V10\CAD\database\s8\cdbblks\a900000020000050.blk\blkatl.v] - auto-saving it
+[2021.08.09 10:27:40] [0000m.25s.798ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\work\PADS designs\TMC5240-SA-DEV\TMC5240-SA-DEV\V10\CAD\database\s8\cdbblks\a900000020000050.blk\dxdatl.v] - auto-saving it
+[2021.08.09 10:27:40] [0000m.25s.799ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\work\PADS designs\TMC5240-SA-DEV\TMC5240-SA-DEV\V10\CAD\database\s8\cdbcatlg\catlgatl.v] - auto-saving it
+[2021.08.09 10:27:40] [0000m.25s.799ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\work\PADS designs\TMC5240-SA-DEV\TMC5240-SA-DEV\V10\CAD\database\s8\cdbcatlg\grpatl.v] - auto-saving it
+[2021.08.09 10:27:40] [0000m.25s.799ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\work\PADS designs\TMC5240-SA-DEV\TMC5240-SA-DEV\V10\CAD\database\s8\cdbcatlg\grpobj] - auto-saving it
+[2021.08.09 10:27:40] [0000m.25s.800ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\work\PADS designs\TMC5240-SA-DEV\TMC5240-SA-DEV\V10\CAD\database\s8\cdbcmpcache\cmpatl.v] - auto-saving it
+[2021.08.09 10:27:40] [0000m.25s.800ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\work\PADS designs\TMC5240-SA-DEV\TMC5240-SA-DEV\V10\CAD\database\s8\cdbcmpcache\dxdatl.v] - auto-saving it
+[2021.08.09 10:27:40] [0000m.25s.800ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\work\PADS designs\TMC5240-SA-DEV\TMC5240-SA-DEV\V10\CAD\database\s8\cdbcmps\cmpatl.v] - auto-saving it
+[2021.08.09 10:27:40] [0000m.25s.801ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\work\PADS designs\TMC5240-SA-DEV\TMC5240-SA-DEV\V10\CAD\database\s8\cdbcnfgs\a900000020000050.blk\cesatl.v] - auto-saving it
+[2021.08.09 10:27:40] [0000m.25s.801ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\work\PADS designs\TMC5240-SA-DEV\TMC5240-SA-DEV\V10\CAD\database\s8\cdbcnfgs\a900000020000050.blk\cnfgatl.v] - auto-saving it
+[2021.08.09 10:27:40] [0000m.25s.801ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\work\PADS designs\TMC5240-SA-DEV\TMC5240-SA-DEV\V10\CAD\database\s8\cdbcnfgs\a900000020000050.blk\varatl.v] - auto-saving it
+[2021.08.09 10:27:40] [0000m.25s.802ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\work\PADS designs\TMC5240-SA-DEV\TMC5240-SA-DEV\V10\CAD\database\s8\oryg] - auto-saving it
+[2021.08.09 10:27:40] [0000m.25s.802ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\work\PADS designs\TMC5240-SA-DEV\TMC5240-SA-DEV\V10\CAD\database\s8\params] - auto-saving it
+[2021.08.09 10:27:40] [0000m.25s.802ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\work\PADS designs\TMC5240-SA-DEV\TMC5240-SA-DEV\V10\CAD\database\s8\uids] - auto-saving it
+[2021.08.09 10:28:42] [0001m.27s.376ms] [1] SC[154]: Registered sub-client [ObjectHolder_638916616] with ID [52] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:28:42] [0001m.27s.381ms] [1] SC[154]: Registered sub-client [BlockCache_savepoint[SCH][288230380446679042][4971974010091864068][22:15:30_8-8-21][1628494122]:843292888] with ID [53] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:28:42] [0001m.27s.387ms] [1] SC[154]: Registered sub-client [GlobalNetAliasUpdater_638917136] with ID [54] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:28:42] [0001m.27s.390ms] [1] SC[154]: Registered sub-client [IcdbNetProcessorSubClient_savepoint[SCH][288230380446679042][4971974010091864068][22:15:30_8-8-21][1628494122]:845706088] with ID [55] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:28:42] [0001m.27s.391ms] [1] SC[154]: UnRegistered sub-client [GlobalNetAliasUpdater_638917136] with ID [54] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:28:42] [0001m.27s.392ms] [1] SC[154]: UnRegistered sub-client [BlockCache_savepoint[SCH][288230380446679042][4971974010091864068][22:15:30_8-8-21][1628494122]:843292888] with ID [53] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:28:42] [0001m.27s.392ms] [1] SC[154]: UnRegistered sub-client [ObjectHolder_638916616] with ID [52] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:28:42] [0001m.27s.392ms] [1] SC[154]: UnRegistered sub-client [IcdbNetProcessorSubClient_savepoint[SCH][288230380446679042][4971974010091864068][22:15:30_8-8-21][1628494122]:845706088] with ID [55] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:28:42] [0001m.27s.396ms] [1] SC[154]: Registered sub-client [ObjectHolder_638917136] with ID [56] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:28:42] [0001m.27s.399ms] [1] SC[154]: Registered sub-client [BlockCache_savepoint[SCH][288230380446679042][4971974010091864068][22:15:30_8-8-21][1628494122]:843293080] with ID [57] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:28:42] [0001m.27s.402ms] [1] SC[154]: Registered sub-client [GlobalNetAliasUpdater_638918280] with ID [58] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:28:42] [0001m.27s.407ms] [1] SC[154]: Registered sub-client [IcdbNetProcessorSubClient_savepoint[SCH][288230380446679042][4971974010091864068][22:15:30_8-8-21][1628494122]:845705304] with ID [59] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:28:42] [0001m.27s.748ms] [1] SC[154]: UnRegistered sub-client [GlobalNetAliasUpdater_638918280] with ID [58] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:28:42] [0001m.27s.748ms] [1] SC[154]: UnRegistered sub-client [BlockCache_savepoint[SCH][288230380446679042][4971974010091864068][22:15:30_8-8-21][1628494122]:843293080] with ID [57] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:28:42] [0001m.27s.749ms] [1] SC[154]: UnRegistered sub-client [ObjectHolder_638917136] with ID [56] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:28:42] [0001m.27s.749ms] [1] SC[154]: UnRegistered sub-client [IcdbNetProcessorSubClient_savepoint[SCH][288230380446679042][4971974010091864068][22:15:30_8-8-21][1628494122]:845705304] with ID [59] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:28:42] [0001m.27s.769ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\work\PADS designs\TMC5240-SA-DEV\TMC5240-SA-DEV\V10\CAD\database\s3\cdbblks\a900000030000050.blk\blkatl.v] - auto-saving it
+[2021.08.09 10:28:42] [0001m.27s.769ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\work\PADS designs\TMC5240-SA-DEV\TMC5240-SA-DEV\V10\CAD\database\s3\cdbblks\a900000030000050.blk\dxdatl.v] - auto-saving it
+[2021.08.09 10:28:42] [0001m.27s.769ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\work\PADS designs\TMC5240-SA-DEV\TMC5240-SA-DEV\V10\CAD\database\s3\cdbcatlg\catlgatl.v] - auto-saving it
+[2021.08.09 10:28:42] [0001m.27s.770ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\work\PADS designs\TMC5240-SA-DEV\TMC5240-SA-DEV\V10\CAD\database\s3\cdbcatlg\grpatl.v] - auto-saving it
+[2021.08.09 10:28:42] [0001m.27s.770ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\work\PADS designs\TMC5240-SA-DEV\TMC5240-SA-DEV\V10\CAD\database\s3\cdbcatlg\grpobj] - auto-saving it
+[2021.08.09 10:28:42] [0001m.27s.770ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\work\PADS designs\TMC5240-SA-DEV\TMC5240-SA-DEV\V10\CAD\database\s3\cdbcmpcache\cmpatl.v] - auto-saving it
+[2021.08.09 10:28:42] [0001m.27s.770ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\work\PADS designs\TMC5240-SA-DEV\TMC5240-SA-DEV\V10\CAD\database\s3\cdbcmpcache\dxdatl.v] - auto-saving it
+[2021.08.09 10:28:42] [0001m.27s.770ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\work\PADS designs\TMC5240-SA-DEV\TMC5240-SA-DEV\V10\CAD\database\s3\cdbcmps\cmpatl.v] - auto-saving it
+[2021.08.09 10:28:42] [0001m.27s.771ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\work\PADS designs\TMC5240-SA-DEV\TMC5240-SA-DEV\V10\CAD\database\s3\cdbcnfgs\a900000030000050.blk\cesatl.v] - auto-saving it
+[2021.08.09 10:28:42] [0001m.27s.771ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\work\PADS designs\TMC5240-SA-DEV\TMC5240-SA-DEV\V10\CAD\database\s3\cdbcnfgs\a900000030000050.blk\cnfgatl.v] - auto-saving it
+[2021.08.09 10:28:42] [0001m.27s.771ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\work\PADS designs\TMC5240-SA-DEV\TMC5240-SA-DEV\V10\CAD\database\s3\cdbcnfgs\a900000030000050.blk\varatl.v] - auto-saving it
+[2021.08.09 10:28:42] [0001m.27s.771ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\work\PADS designs\TMC5240-SA-DEV\TMC5240-SA-DEV\V10\CAD\database\s3\oryg] - auto-saving it
+[2021.08.09 10:28:42] [0001m.27s.771ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\work\PADS designs\TMC5240-SA-DEV\TMC5240-SA-DEV\V10\CAD\database\s3\params] - auto-saving it
+[2021.08.09 10:28:42] [0001m.27s.771ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\work\PADS designs\TMC5240-SA-DEV\TMC5240-SA-DEV\V10\CAD\database\s3\uids] - auto-saving it
+[2021.08.09 10:32:15] [0005m.00s.516ms] [1] SC[154]: UnRegistered sub-client [SystemDesignDll] with ID [9] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:32:15] [0005m.00s.633ms] [1] SC[154]: UnRegistered sub-client [DesignSearcher2] with ID [10] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:32:15] [0005m.00s.945ms] [1] SC[154]: UnRegistered sub-client [GlobalNetAliasUpdater_630140024] with ID [34] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:32:15] [0005m.00s.946ms] [1] SC[154]: UnRegistered sub-client [BlockCacheDxD:637771048] with ID [33] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:32:15] [0005m.00s.947ms] [1] SC[154]: UnRegistered sub-client [ObjectHolder_630139920] with ID [32] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:32:15] [0005m.00s.947ms] [1] SC[154]: UnRegistered sub-client [IcdbNetProcessorSubClientDxD:630050352] with ID [35] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:32:15] [0005m.00s.966ms] [1] SC[154]: UnRegistered sub-client [Navigator] with ID [12] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:32:15] [0005m.00s.968ms] [1] SC[154]: UnRegistered sub-client [FFSSelListener] with ID [17] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:32:16] [0005m.01s.303ms] [1] SC[154]: UnRegistered sub-client [LocalSymbolsDataProvider] with ID [16] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:32:16] [0005m.01s.478ms] [1] SC[154]: UnRegistered sub-client [FFSearch_RBHost] with ID [15] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:32:16] [0005m.01s.509ms] [1] SC[154]: UnRegistered sub-client [MyParts] with ID [22] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:32:16] [0005m.01s.510ms] [1] SC[154]: UnRegistered sub-client [toolboxes] with ID [24] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:32:16] [0005m.01s.615ms] [1] SC[154]: UnRegistered sub-client [SelectionHolder] with ID [4] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:32:16] [0005m.01s.616ms] [1] SC[154]: UnRegistered sub-client [PartReplaceUtils] with ID [28] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:32:16] [0005m.01s.617ms] [1] SC[154]: UnRegistered sub-client [PartReplaceUtilsSelectionListener] with ID [29] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:32:17] [0005m.02s.583ms] [1] SC[154]: UnRegistered sub-client [ProjectIntegrationIcdbCacheDxD:419579536] with ID [25] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:32:17] [0005m.02s.583ms] [1] SC[154]: UnRegistered sub-client [Core::NetFlatData-17541] with ID [7] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:32:17] [0005m.02s.584ms] [1] SC[154]: UnRegistered sub-client [BlockCacheDxD:632173176] with ID [6] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:32:17] [0005m.02s.584ms] [1] SC[154]: UnRegistered sub-client [Core::DesignListener-632174040-0] with ID [5] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:32:17] [0005m.02s.584ms] [1] SC[154]: UnRegistered sub-client [SheetConnectorsCacheDxD:1628494040] with ID [26] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:32:17] [0005m.02s.584ms] [1] SC[154]: UnRegistered sub-client [NetsNamesCollectorDxD:1628494040] with ID [27] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:32:17] [0005m.02s.587ms] [1] SC[154]: UnRegistered sub-client [TransactionRollbackSubClient] with ID [2] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:32:17] [0005m.02s.587ms] [1] SC[154]: UnRegistered sub-client [DxD] with ID [1] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:32:17] [0005m.02s.610ms] [1] SC[154]: UnRegistered sub-client [xprob] with ID [30] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:32:17] [0005m.02s.611ms] [1] SC[154]: UnRegistered sub-client [SymbolEditor] with ID [3] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:32:17] [0005m.02s.904ms] [1] SC[154]: UnRegistered sub-client [OutputWindow] with ID [13] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:32:17] [0005m.02s.971ms] [1] SC[154]: UnRegistered sub-client [SAE] with ID [18] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:32:18] [0005m.03s.135ms] [1] SC[154]: UnRegistered sub-client [CCZAddin] with ID [20] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:32:18] [0005m.03s.190ms] [1] SC[154]: UnRegistered sub-client [DxThumbnails] with ID [21] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:32:25] [0005m.10s.992ms] [1] SC[154]: UnRegistered sub-client [DxConstraints] with ID [19] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:32:25] [0005m.11s.052ms] [1] SC[154]: UnRegistered sub-client [PinsList] with ID [23] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:32:26] [0005m.11s.162ms] [1] SC[154]: UnRegistered sub-client [PlaceDevice] with ID [14] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:32:26] [0005m.11s.240ms] [1] SC[154]: UnRegistered sub-client [HdlProject] with ID [11] for session ID [154] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [17096]
+[2021.08.09 10:32:26] [0005m.11s.301ms] [1] CMT: Removed client [154]
+[2021.08.09 10:32:26] [0005m.11s.301ms] [1] CMT: There are no clients left - waiting [1 seconds]
+[2021.08.09 10:32:28] [0005m.13s.212ms] [0] CMT: Starting server auto-close
+[2021.08.09 10:32:28] [0005m.13s.215ms] [0] S: Closing server
+[2021.08.09 10:32:28] [0005m.13s.322ms] [0] iCDB Server PI: Closing plugins
+[2021.08.09 10:32:28] [0005m.13s.323ms] [0] iCDB Server PI: Plugins closed
+[2021.08.09 10:32:28] [0005m.13s.323ms] [0] iCDB Server PI: Unloading database
+[2021.08.09 10:32:28] [0005m.13s.323ms] [0] iCDB Server PI: Saving storage
+[2021.08.09 10:32:28] [0005m.13s.323ms] [0] iCDB Server PI: Closing database
+[2021.08.09 10:32:28] [0005m.13s.324ms] [1] iCDB Server PI: Stats: Database defragmentation: max[4] avg[1] holes[8%] data[94%]
+[2021.08.09 10:32:28] [0005m.13s.324ms] [1] iCDB Server PI: Stats: Database file size [679376 (663.5 kB)]
+[2021.08.09 10:32:28] [0005m.13s.329ms] [0] iCDB Server PI: Database closed
+[2021.08.09 10:32:28] [0005m.13s.329ms] [1] iCDB Server PI: Stats: Total iCDB execution time: [3028260] ticks
+[2021.08.09 10:32:28] [0005m.13s.329ms] [1] iCDB Server PI: Stats: Total iCDB execution time: [302826] microseconds
+[2021.08.09 10:32:28] [0005m.13s.329ms] [1] iCDB Server PI: Stats: Total iCDB commands count: [820]
+[2021.08.09 10:32:28] [0005m.13s.329ms] [1] iCDB Server PI: Stats: Average iCDB speed:        [2707] commands per second
+[2021.08.09 10:32:28] [0005m.13s.329ms] [1] iCDB Server PI: Stats: Mem[49725440]
+[2021.08.09 10:32:28] [0005m.13s.329ms] [1] iCDB Server PI: Stats: MemPeak[56635392]
+[2021.08.09 10:32:28] [0005m.13s.336ms] [0] Single file [C:\work\PADS designs\TMC5240-SA-DEV\TMC5240-SA-DEV\V10\CAD\database\icdb.dat] closed with size [679376 (663.5 kB)]
+[2021.08.09 10:32:28] [0005m.13s.505ms] [0] MWT: Destroy the shutdown block reason.
+[2021.08.09 10:32:28] [0005m.13s.507ms] [0] MWT: STOP
+[2021.08.09 10:32:28] [0005m.13s.507ms] [0] S: STOP

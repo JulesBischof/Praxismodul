@@ -1,0 +1,66 @@
+[2021.08.09 01:24:35] [0232m.00s.393ms] [1] SC[146]: UnRegistered sub-client [SystemDesignDll] with ID [9] for session ID [146] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [10648]
+[2021.08.09 01:24:35] [0232m.00s.559ms] [1] SC[146]: UnRegistered sub-client [DesignSearcher2] with ID [60] for session ID [146] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [10648]
+[2021.08.09 01:24:35] [0232m.00s.683ms] [1] SC[146]: UnRegistered sub-client [GlobalNetAliasUpdater_810689752] with ID [34] for session ID [146] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [10648]
+[2021.08.09 01:24:35] [0232m.00s.684ms] [1] SC[146]: UnRegistered sub-client [BlockCacheDxD:813643904] with ID [33] for session ID [146] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [10648]
+[2021.08.09 01:24:35] [0232m.00s.686ms] [1] SC[146]: UnRegistered sub-client [ObjectHolder_810691416] with ID [32] for session ID [146] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [10648]
+[2021.08.09 01:24:35] [0232m.00s.686ms] [1] SC[146]: UnRegistered sub-client [IcdbNetProcessorSubClientDxD:598548416] with ID [35] for session ID [146] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [10648]
+[2021.08.09 01:24:35] [0232m.00s.908ms] [1] SC[146]: UnRegistered sub-client [Navigator] with ID [12] for session ID [146] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [10648]
+[2021.08.09 01:24:35] [0232m.00s.908ms] [1] SC[146]: UnRegistered sub-client [FFSSelListener] with ID [17] for session ID [146] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [10648]
+[2021.08.09 01:24:36] [0232m.00s.993ms] [1] SC[146]: UnRegistered sub-client [LocalSymbolsDataProvider] with ID [16] for session ID [146] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [10648]
+[2021.08.09 01:24:36] [0232m.01s.063ms] [1] SC[146]: UnRegistered sub-client [FFSearch_RBHost] with ID [15] for session ID [146] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [10648]
+[2021.08.09 01:24:36] [0232m.01s.079ms] [1] SC[146]: UnRegistered sub-client [MyParts] with ID [22] for session ID [146] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [10648]
+[2021.08.09 01:24:36] [0232m.01s.081ms] [1] SC[146]: UnRegistered sub-client [toolboxes] with ID [24] for session ID [146] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [10648]
+[2021.08.09 01:24:36] [0232m.01s.121ms] [1] SC[146]: UnRegistered sub-client [SelectionHolder] with ID [4] for session ID [146] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [10648]
+[2021.08.09 01:24:36] [0232m.01s.121ms] [1] SC[146]: UnRegistered sub-client [PartReplaceUtils] with ID [28] for session ID [146] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [10648]
+[2021.08.09 01:24:36] [0232m.01s.121ms] [1] SC[146]: UnRegistered sub-client [PartReplaceUtilsSelectionListener] with ID [29] for session ID [146] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [10648]
+[2021.08.09 01:24:37] [0232m.02s.137ms] [1] SC[146]: UnRegistered sub-client [ProjectIntegrationIcdbCacheDxD:347270968] with ID [25] for session ID [146] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [10648]
+[2021.08.09 01:24:37] [0232m.02s.138ms] [1] SC[146]: UnRegistered sub-client [Core::NetFlatData-12540] with ID [7] for session ID [146] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [10648]
+[2021.08.09 01:24:37] [0232m.02s.138ms] [1] SC[146]: UnRegistered sub-client [BlockCacheDxD:592711632] with ID [6] for session ID [146] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [10648]
+[2021.08.09 01:24:37] [0232m.02s.139ms] [1] SC[146]: UnRegistered sub-client [Core::DesignListener-591952952-3] with ID [5] for session ID [146] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [10648]
+[2021.08.09 01:24:37] [0232m.02s.139ms] [1] SC[146]: UnRegistered sub-client [SheetConnectorsCacheDxD:1628447564] with ID [26] for session ID [146] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [10648]
+[2021.08.09 01:24:37] [0232m.02s.140ms] [1] SC[146]: UnRegistered sub-client [NetsNamesCollectorDxD:1628447564] with ID [27] for session ID [146] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [10648]
+[2021.08.09 01:24:37] [0232m.02s.142ms] [1] SC[146]: UnRegistered sub-client [TransactionRollbackSubClient] with ID [2] for session ID [146] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [10648]
+[2021.08.09 01:24:37] [0232m.02s.142ms] [1] SC[146]: UnRegistered sub-client [DxD] with ID [1] for session ID [146] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [10648]
+[2021.08.09 01:24:37] [0232m.02s.161ms] [1] SC[146]: UnRegistered sub-client [xprob] with ID [30] for session ID [146] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [10648]
+[2021.08.09 01:24:37] [0232m.02s.161ms] [1] SC[146]: UnRegistered sub-client [SymbolEditor] with ID [3] for session ID [146] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [10648]
+[2021.08.09 01:24:37] [0232m.02s.195ms] [1] SC[146]: UnRegistered sub-client [OutputWindow] with ID [13] for session ID [146] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [10648]
+[2021.08.09 01:24:37] [0232m.02s.217ms] [1] SC[146]: UnRegistered sub-client [SAE] with ID [18] for session ID [146] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [10648]
+[2021.08.09 01:24:37] [0232m.02s.244ms] [1] SC[146]: UnRegistered sub-client [CCZAddin] with ID [20] for session ID [146] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [10648]
+[2021.08.09 01:24:37] [0232m.02s.249ms] [1] SC[146]: UnRegistered sub-client [DxThumbnails] with ID [21] for session ID [146] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [10648]
+[2021.08.09 01:24:41] [0232m.06s.605ms] [1] SC[146]: UnRegistered sub-client [DxConstraints] with ID [19] for session ID [146] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [10648]
+[2021.08.09 01:24:41] [0232m.06s.636ms] [1] SC[146]: UnRegistered sub-client [PinsList] with ID [23] for session ID [146] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [10648]
+[2021.08.09 01:24:41] [0232m.06s.745ms] [1] SC[146]: UnRegistered sub-client [PlaceDevice] with ID [14] for session ID [146] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [10648]
+[2021.08.09 01:24:41] [0232m.06s.804ms] [1] SC[146]: UnRegistered sub-client [HdlProject] with ID [11] for session ID [146] host [EST-LT-39622] user [Heikki.Hiiuvaein] process ID [10648]
+[2021.08.09 01:24:41] [0232m.06s.887ms] [1] CMT: Removed client [146]
+[2021.08.09 01:24:41] [0232m.06s.887ms] [1] CMT: There are no clients left - waiting [1 seconds]
+[2021.08.09 01:24:43] [0232m.07s.994ms] [0] CMT: Starting server auto-close
+[2021.08.09 01:24:43] [0232m.08s.086ms] [0] S: Closing server
+[2021.08.09 01:24:43] [0232m.08s.202ms] [0] iCDB Server PI: Closing plugins
+[2021.08.09 01:24:43] [0232m.08s.202ms] [0] iCDB Server PI: Plugins closed
+[2021.08.09 01:24:43] [0232m.08s.202ms] [0] iCDB Server PI: Unloading database
+[2021.08.09 01:24:43] [0232m.08s.202ms] [0] iCDB Server PI: Saving storage
+[2021.08.09 01:24:43] [0232m.08s.203ms] [0] iCDB Server PI: Closing database
+[2021.08.09 01:24:43] [0232m.08s.207ms] [1] iCDB Server PI: Stats: Database defragmentation: max[5] avg[1] holes[23%] data[72%]
+[2021.08.09 01:24:43] [0232m.08s.207ms] [1] iCDB Server PI: Stats: Database file size [943160 (921.1 kB)]
+[2021.08.09 01:24:43] [0232m.08s.208ms] [1] iCDB Server PI: WARNING: Database needs defragmentation!
+[2021.08.09 01:24:43] [0232m.08s.211ms] [0] iCDB Server PI: Database closed
+[2021.08.09 01:24:43] [0232m.08s.211ms] [0] iCDB Server PI: Defragmenting database
+[2021.08.09 01:24:43] [0232m.08s.212ms] [0] iCDB Server PI: Creating database [C:\work\PADS designs\TMC5240-SA-DEV\TMC5240-SA-DEV\V10\CAD\database] backup to file [C:\work\PADS designs\TMC5240-SA-DEV\TMC5240-SA-DEV\V10\CAD\database\cdbback\2021-08-09 01.24.43-29388-d.zip]
+[2021.08.09 01:24:43] [0232m.08s.343ms] [0] iCDB Server PI: Database backup: DONE
+[2021.08.09 01:24:43] [0232m.08s.351ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2021.08.09 01:24:43] [0232m.08s.351ms] [0] Database GUARD OK: [943160]
+[2021.08.09 01:24:43] [0232m.08s.351ms] [0] SingleFile: [bac2-9a86-1309-fcd0] SFI version check [1009] [1009]
+[2021.08.09 01:24:43] [0232m.08s.359ms] [0] SingleFile: [bac2-9a86-1309-fcd0] Database SFI header has been read in [7ms 914us]
+[2021.08.09 01:24:43] [0232m.08s.387ms] [1] iCDB Server PI: Stats: Database file sizes: before[943160 (921.1 kB)], after[603712 (589.6 kB)], gain[339448 (331.5 kB)]
+[2021.08.09 01:24:43] [0232m.08s.392ms] [0] Single file [C:\work\PADS designs\TMC5240-SA-DEV\TMC5240-SA-DEV\V10\CAD\database\icdb.dat] closed with size [603712 (589.6 kB)]
+[2021.08.09 01:24:43] [0232m.08s.393ms] [0] iCDB Server PI: Database defragmentation completed successfully
+[2021.08.09 01:24:43] [0232m.08s.393ms] [1] BackupTransaction: Removing database backup [C:\work\PADS designs\TMC5240-SA-DEV\TMC5240-SA-DEV\V10\CAD\database\cdbback\2021-08-09 01.24.43-29388-d.zip]
+[2021.08.09 01:24:43] [0232m.08s.396ms] [1] iCDB Server PI: Stats: Total iCDB execution time: [2341666] ticks
+[2021.08.09 01:24:43] [0232m.08s.397ms] [1] iCDB Server PI: Stats: Total iCDB execution time: [234166] microseconds
+[2021.08.09 01:24:43] [0232m.08s.397ms] [1] iCDB Server PI: Stats: Total iCDB commands count: [1376]
+[2021.08.09 01:24:43] [0232m.08s.397ms] [1] iCDB Server PI: Stats: Average iCDB speed:        [5876] commands per second
+[2021.08.09 01:24:43] [0232m.08s.397ms] [1] iCDB Server PI: Stats: Mem[34467840]
+[2021.08.09 01:24:43] [0232m.08s.397ms] [1] iCDB Server PI: Stats: MemPeak[43233280]
+[2021.08.09 01:24:43] [0232m.08s.489ms] [0] MWT: Destroy the shutdown block reason.
+[2021.08.09 01:24:43] [0232m.08s.490ms] [0] MWT: STOP
+[2021.08.09 01:24:43] [0232m.08s.490ms] [0] S: STOP

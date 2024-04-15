@@ -1,0 +1,29 @@
+[2022.01.10 15:32:51] [0000m.10s.329ms] [0] WELCOME
+[2022.01.10 15:32:51] [0000m.10s.329ms] [1] iCDB Database ver.2.207, qgLvIY/Eg4ge+fhn3Vi3jQ, build:15449124 created 2019-12-19 14:24:55, sources stamp:qgLvIY/Eg4ge+fhn3Vi3jQ
+[2022.01.10 15:32:51] [0000m.10s.329ms] [1] Restricted Copyright Siemens 2020. All Rights Reserved.
+[2022.01.10 15:32:51] [0000m.10s.329ms] [1] Base flow version [VX.2.7]
+[2022.01.10 15:32:51] [0000m.10s.329ms] [1] Install Id [2119024], Flow Id [PADS VX.2.7], Full Flow Name [PADS VX.2.7], Exact Access Date [2020/02/01]
+[2022.01.10 15:32:51] [0000m.10s.329ms] [1] UPDATE Install Info, Install Id [2207457], UPDATE Name [PADS VX.2.7 - Update 4]
+[2022.01.10 15:32:51] [0000m.10s.330ms] [1] Machine [EST-LT-39626]  IP [10.82.196.117,127.0.0.1,192.168.1.177]  User [Margus.Maantoa]  PID [40276]
+[2022.01.10 15:32:51] [0000m.10s.330ms] [1] Operating system [Microsoft Windows 8 Enterprise Edition, 64-bit (build 9200)]
+[2022.01.10 15:32:51] [0000m.10s.330ms] [1] Current working dir [C:\work\PADS designs\RX27\TMC5240-EVAL\V10\CAD]
+[2022.01.10 15:32:51] [0000m.10s.330ms] [1] PATH [C:\MentorGraphics\PADSVX.2.7\SDD_HOME\common\win32\bin;C:\MentorGraphics\PADSVX.2.7\SDD_HOME\common\win32\lib;C:\MentorGraphics\PADSVX.2.7\SDD_HOME\common\win64\lib;C:\MentorGraphics\PADSVX.2.7\SDD_HOME\common\win32\jre\default\bin;C:\MentorGraphics\PADSVX.2.7\MGC_HOME.ixn\bin;C:\MentorGraphics\PADSVX.2.7\MGC_HOME.ixn\lib;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Program Files\PuTTY\;C:\Program Files (x86)\IDEMIA\AWP\Dlls;C:\Program Files\IDEMIA\AWP\Dlls;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;%SYSTEMROOT%\System32\OpenSSH\;C:\Users\margus.maantoa\AppData\Local\Microsoft\WindowsApps;C:\MentorGraphics\PADSVX.2.7\SDD_HOME\CAMCAD;C:\Users\margus.maantoa\AppData\Local\Programs\Git\cmd;C:\Users\margus.maantoa\AppData\Local\Programs\MiKTeX\miktex\bin\x64\;]
+[2022.01.10 15:32:51] [0000m.10s.330ms] [1] SDD_HOME [C:\MentorGraphics\PADSVX.2.7\SDD_HOME] on file system [NTFS]
+[2022.01.10 15:32:51] [0000m.10s.330ms] [1] SDD_PLATFORM [win32]
+[2022.01.10 15:32:51] [0000m.10s.330ms] [1] WDIR [C:\PADS Projects;C:\MentorGraphics\PADSVX.2.7\SDD_HOME\standard;]
+[2022.01.10 15:32:51] [0000m.10s.330ms] [1] Local iCDB working dir [C:\PADS Projects\iCDB] on file system [NTFS]
+[2022.01.10 15:32:51] [0000m.10s.330ms] [3] File change time:        [2022-01-07 16.24.06]
+[2022.01.10 15:32:51] [0000m.10s.330ms] [3] File modification time:  [2022-01-07 16.24.06]
+[2022.01.10 15:32:51] [0000m.10s.330ms] [3] Last change time:        [2022-01-07 16.24.06]
+[2022.01.10 15:32:51] [0000m.10s.330ms] [3] Last database open information:
+[2022.01.10 15:32:51] [0000m.10s.330ms] [3] Time:             [2022-01-07 16.23.36]
+[2022.01.10 15:32:51] [0000m.10s.330ms] [3] Location:         [C:\work\PADS designs\RX27\TMC5240ATJ-EVAL\V10\CAD\database\icdb.dat]
+[2022.01.10 15:32:51] [0000m.10s.330ms] [3] Machine:          [EST-LT-39626]
+[2022.01.10 15:32:51] [0000m.10s.330ms] [3] User:             [Margus.Maantoa]
+[2022.01.10 15:32:51] [0000m.10s.330ms] [3] PID:              [35080]
+[2022.01.10 15:32:51] [0000m.10s.330ms] [3] Application:      [iCDB Server]
+[2022.01.10 15:32:51] [0000m.10s.330ms] [3] Operating system: [Microsoft Windows 10 Enterprise Edition, 64-bit (build 19042)]
+[2022.01.10 15:32:51] [0000m.10s.330ms] [3] Database GUID must be regenerated
+[2022.01.10 15:32:51] [0000m.10s.330ms] [3] Previous database GUID [a85d-40d1-bca7-96c9-65a1-8d1c-5a18-d160-dd60-18a5-747e-6c8c]
+[2022.01.10 15:32:51] [0000m.10s.330ms] [3] Current database GUID  [03cd-e59b-7a33-da3f-3853-cd19-853c-d160-5f40-1806-e47e-6c8c]
+[2022.01.10 15:32:51] [0000m.10s.330ms] [0] .

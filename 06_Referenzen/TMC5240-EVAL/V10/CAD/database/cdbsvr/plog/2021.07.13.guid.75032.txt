@@ -1,0 +1,29 @@
+[2021.07.13 16:51:15] [0000m.14s.246ms] [0] WELCOME
+[2021.07.13 16:51:15] [0000m.14s.246ms] [1] iCDB Database ver.2.207, qgLvIY/Eg4ge+fhn3Vi3jQ, build:15449124 created 2019-12-19 14:24:55, sources stamp:qgLvIY/Eg4ge+fhn3Vi3jQ
+[2021.07.13 16:51:15] [0000m.14s.246ms] [1] Restricted Copyright Siemens 2020. All Rights Reserved.
+[2021.07.13 16:51:15] [0000m.14s.246ms] [1] Base flow version [VX.2.7]
+[2021.07.13 16:51:15] [0000m.14s.246ms] [1] Install Id [2119024], Flow Id [PADS VX.2.7], Full Flow Name [PADS VX.2.7], Exact Access Date [2020/02/01]
+[2021.07.13 16:51:15] [0000m.14s.246ms] [1] UPDATE Install Info, Install Id [2207457], UPDATE Name [PADS VX.2.7 - Update 4]
+[2021.07.13 16:51:15] [0000m.14s.250ms] [1] Machine [EST-LT-39626]  IP [10.82.196.102,127.0.0.1,192.168.1.78]  User [Margus.Maantoa]  PID [75032]
+[2021.07.13 16:51:15] [0000m.14s.250ms] [1] Operating system [Microsoft Windows 8 Enterprise Edition, 64-bit (build 9200)]
+[2021.07.13 16:51:15] [0000m.14s.250ms] [1] Current working dir [C:\work\PADS designs\TMC5240-SA-DEV\V10\CAD]
+[2021.07.13 16:51:15] [0000m.14s.250ms] [1] PATH [C:\MentorGraphics\PADSVX.2.7\SDD_HOME\common\win32\bin;C:\MentorGraphics\PADSVX.2.7\SDD_HOME\common\win32\lib;C:\MentorGraphics\PADSVX.2.7\SDD_HOME\common\win64\lib;C:\MentorGraphics\PADSVX.2.7\SDD_HOME\common\win32\jre\default\bin;C:\MentorGraphics\PADSVX.2.7\MGC_HOME.ixn\bin;C:\MentorGraphics\PADSVX.2.7\MGC_HOME.ixn\lib;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Program Files\PuTTY\;C:\Program Files (x86)\IDEMIA\AWP\Dlls;C:\Program Files\IDEMIA\AWP\Dlls;C:\Users\margus.maantoa\AppData\Local\Microsoft\WindowsApps;C:\MentorGraphics\PADSVX.2.7\SDD_HOME\CAMCAD;C:\Users\margus.maantoa\AppData\Local\Programs\Git\cmd;C:\Users\margus.maantoa\AppData\Local\Programs\MiKTeX\miktex\bin\x64\]
+[2021.07.13 16:51:15] [0000m.14s.250ms] [1] SDD_HOME [C:\MentorGraphics\PADSVX.2.7\SDD_HOME] on file system [NTFS]
+[2021.07.13 16:51:15] [0000m.14s.250ms] [1] SDD_PLATFORM [win32]
+[2021.07.13 16:51:15] [0000m.14s.250ms] [1] WDIR [C:\PADS Projects;C:\MentorGraphics\PADSVX.2.7\SDD_HOME\standard;]
+[2021.07.13 16:51:15] [0000m.14s.250ms] [1] Local iCDB working dir [C:\PADS Projects\iCDB] on file system [NTFS]
+[2021.07.13 16:51:15] [0000m.14s.250ms] [3] File change time:        [2021-07-13 16.50.33]
+[2021.07.13 16:51:15] [0000m.14s.250ms] [3] File modification time:  [2021-07-13 16.50.33]
+[2021.07.13 16:51:15] [0000m.14s.250ms] [3] Last change time:        [2021-07-13 16.50.33]
+[2021.07.13 16:51:15] [0000m.14s.250ms] [3] Last database open information:
+[2021.07.13 16:51:15] [0000m.14s.250ms] [3] Time:             [2021-07-13 16.45.42]
+[2021.07.13 16:51:15] [0000m.14s.250ms] [3] Location:         [C:\work\PADS designs\TMC5240-DEV\V10\CAD\database\icdb.dat]
+[2021.07.13 16:51:15] [0000m.14s.250ms] [3] Machine:          [EST-LT-39626]
+[2021.07.13 16:51:15] [0000m.14s.251ms] [3] User:             [Margus.Maantoa]
+[2021.07.13 16:51:15] [0000m.14s.251ms] [3] PID:              [82520]
+[2021.07.13 16:51:15] [0000m.14s.251ms] [3] Application:      [iCDB Server]
+[2021.07.13 16:51:15] [0000m.14s.251ms] [3] Operating system: [Microsoft Windows 10 Enterprise Edition, 64-bit (build 18363)]
+[2021.07.13 16:51:15] [0000m.14s.251ms] [3] Database GUID must be regenerated
+[2021.07.13 16:51:15] [0000m.14s.251ms] [3] Previous database GUID [731f-4a5b-f064-9327-9a89-de0f-a89d-e060-95cc-7806-217e-6c8c]
+[2021.07.13 16:51:15] [0000m.14s.251ms] [3] Current database GUID  [af3a-0aaa-3c07-4cb7-35a9-de09-5a9d-e060-5348-7806-217e-6c8c]
+[2021.07.13 16:51:15] [0000m.14s.251ms] [0] .

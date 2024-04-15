@@ -1,0 +1,28 @@
+<Qucs Schematic 0.0.19>
+<Properties>
+  <View=0,70,1034,1629,1.0718,0,0>
+  <Grid=10,10,0>
+  <DataSet=05_LCSim.dat>
+  <DataDisplay=05_LCSim.sch>
+  <OpenDisplay=1>
+  <Script=05_LCSim.m>
+  <RunScript=0>
+  <showFrame=0>
+  <FrameText0=Title>
+  <FrameText1=Drawn By:>
+  <FrameText2=Date:>
+  <FrameText3=Revision:>
+</Properties>
+<Symbol>
+</Symbol>
+<Components>
+</Components>
+<Wires>
+</Wires>
+<Diagrams>
+  <Rect 109 796 878 634 3 #c0c0c0 1 00 1 0.1 5e-05 0.1005 1 -2.4 2 26.4 1 -1 0.2 1 315 0 225 "" "" "">
+	<"Vq.Vt" #0000ff 0 3 0 0 0>
+  </Rect>
+</Diagrams>
+<Paintings>
+</Paintings>
