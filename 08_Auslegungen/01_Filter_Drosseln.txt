@@ -20,3 +20,14 @@ ACM7060-701-2PL-TL01 << SGUARD
 4nH DM
 700OHMS @100MHz
 
+
+
+
+
+
+
+
+
+
+DifferentialMode - einzelne Drosseln! 
+

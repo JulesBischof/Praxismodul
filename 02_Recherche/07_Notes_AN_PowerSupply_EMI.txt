@@ -25,3 +25,7 @@ Hot loop: das grüne
 Strahlungseffekte dieses grünen Loops müssen reduziert werden - grösster impact auf Schaltung.
 Wäre Cin ohne Impedanz und Layout-Platz = 0 -> Problem gelöst
 
+
+#######3. an4694-emc-design-guides-for-motor-control-applications-stmicroelectronics.pdf
+
+Figure 19: Layer des PCB's IEC 61967-1
