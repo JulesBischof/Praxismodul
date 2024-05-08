@@ -21,6 +21,7 @@ a = 2#mm
 d = np.sqrt((4*A)/np.pi)
 
 print("nur Kabel: ", R_Leitung, " OHM")
+print("nur Netzteil: ", R_Netzteil)
 
 
 
@@ -29,11 +30,11 @@ print("nur Kabel: ", R_Leitung, " OHM")
 #%% grosses C für Versorgungsspannung - Ripple
 import numpy as np
 
-I = 2 # A
+I = 2.1 # A
 f = 20e3 # Hz
-C = 520e-6 # F
+C = 470e-6 # F
 U0  =24 # V
-Rq = 102e-3 #OHM
+Rq = 700e-3 #OHM
 Urip_gef = 25e-3 #V
 t = 1/(2*f)
 tau = Rq * C
@@ -61,8 +62,8 @@ print ("bei f = ",f*1e-3," kHz benötigtes C = ",C_ben*1e6," uF")
 #%% C bei gegebenen L berechnen für Common Mode Dämpfung
 import numpy as np
 
-L = 3.9e-6 # F, Common Mode
-fg = 100e3 # Hz
+L = 800e-6 # F, Common Mode
+fg = 60e3 # Hz
 
 C = (1/L) * (1/(2*np.pi*fg))**2
 
@@ -208,7 +209,7 @@ import numpy as np
 
 # Parameter Basic-Filter
 R = 0 #Ohm
-L = 3.9e-6 # H, Common Mode
+L = 800e-6 # H, Common Mode
 fg = 60e3 # Hz
 
 Ci = (1/L) * (1/(2*np.pi*fg))**2
@@ -273,9 +274,102 @@ print("Rd = ", Rd, " OHM")
 #%% Filter 2.Ordnung Grenzfrequenz berechnen
 import numpy as np
 
-L = 360e-9 #H
-C = 10e-6 #F
+L = 1e-3 #H
+C = 9.4e-9 #F
 
 fg = 1/(2*np.pi*np.sqrt(L*C))
 
 print("fg = ", fg/1e3, "kHz")
+
+#%% RC Filter 1. Ordnung
+import numpy as np
+
+R = 3.3e3 #OHM
+fg = 40e6 #Hz
+
+C = 1 / (R * fg)
+print("benötigtes C = ", C*1e12, " pF")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#%% RC Filter 1. Ordnung fg berechnen
+import numpy as np
+
+R = 15e3
+C = 10e-12
+
+fg = ( 1 / (R*C) ) / (2*np.pi)
+print("fg = ", fg/1e6, " MHz")
+
+#%% RC Filter 1. Ordnung C berechnen bei gegebenen R
+import numpy as np
+
+R = 15e3
+fg = 1e6
+
+C = 1 / (2*np.pi*fg * R)
+
+print("benötigtes C = ", C*1e12, "pF")
+
+
+
+
+
+
+
+
+
+#%% Impedanz 
+import numpy as np
+
+Z = 200
+f = 10e6
+
+L = Z / (2*np.pi * f)
+print("L = ", L*1e6, " uH")
+
+
+
+
+
+
+
+
+
+
+
+
+
+#%% CLOCK und Encodergeschwidigkeit
+
+fclock = 12.5e6
+CPR = 2000
+
+rpm_typ = ( (2/3) * fclock * 60) / CPR 
+rpm_max = (fclock * 60) / CPR
+
+print("rpm typisch: ", rpm_typ, "             rpm max: ", rpm_max)
+
+
+
+#%% CLOCK und Encodergeschwidigkeit
+
+rpm = 2000
+CPR = 2000
+
+fenc = (rpm/60) * CPR
+
+print("f Encoder: ", fenc*1e-3, "kHz")
+
+print("empfohlene Clock geschwidigkeit... ", fenc * (3/2) * 1e-3, " kHz")
