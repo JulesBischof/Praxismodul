@@ -1,0 +1,73 @@
+NOTES PCB-Layout
+
+https://www.analog.com/media/en/technical-documentation/application-notes/an-1109.pdf
+
+Quellen abgetrahlter Energie... 
+>> Kantenemmissionen
+... treten auf duch ungewollte Ströme, welche die Kanten des PCB's erreichen
+Quellen:
+	- Rauschen auf Ground/Power Plane 
+	- Zyllindrische Magnetfelder durch induktive via-verbindungen zwischen board-layern, welche die Kanten erreichen
+	- Hochfrequente Datenleitungen, welche zu nahe am Rand geführt werden
+
+>> Ein/Ausgangs Dipol Emmissionen
+... tritt auf bei Stromquellen, welche über eine "lücke" in der GND-Plane hinweg arbeiten. Hochfrequente Blindladungen* können nicht zu ihrer Quelle 
+zurückfliessen und bilden deshalb über die Lücke hinweg einen Dipol - eine strahlende Antenne. 
+Abhilfe durch Bypass Kapazitäten, welche Stromfluss der Bildladungen zurück über die Ground-Plane Lücke bieten. Mehrere Kapazitäten unterschiedlicher Grösse
+helfen, diesen Effekt zu verringern. 100n, 10n, 1n
+
+
+
+>> EMI Abschwächungs Techniken:
+grundsätzlich sollte PCB Solides und gleichmässiges Ground und Powerplane haben. Mindestens 3 Layer mit GND, Power und Signal Planes
+
+
+
+
+-> Input to Output GND Plane Stitching
+Fliesst ein Strom entlang einer Leiterbahn, folgen ihm Bildladungen entlang der Shieldplane in der nähe der Leiterbahn. Überquert der Stromfluss
+nun eine Lücke in der GND Plane, können die Bildladungen nichtmehr folgen und erzeugen differenzielle Stroöme und Spannungen, welche Abstrahlen. 
+Diesen Strömen muss ein Weg gegeben werden, um weiter folgen zu können. Standartmässig wird eine vertikale "Stitching Kapazität" vorgesehen. 
+
+Erzeugt wird diese Stitching Kapazität mit folgenden 3 Optionen: 
+- Kondensator vorsehen, welche über die Lücke Reicht
+- Leicht überlappende Ground und Power Planes im Bereich der Lücke, welche eine Überlappende Kapazität bilden.
+- Floatendes Plane im Bereich der Lücke
+
+
+-> Edge Guard
+... an den Kanten einen Shield Ring vorsehen, welche über vias verbunden sind. Dadurch werden Strahlungen zurück zum PCB reflektiert. 
+Alle 4 ebenenen werden mit einem Polygon versehen. Man nennt das auch Via-Fence
+
+Verfolgen zweier Ziele: 
+1. Zylindrische Emmissionen reflektieren
+2. Abschirmen aller Kanten-Ströme
+
+>>>>>> ADI schlägt 4mm Abstand zwischen den Vias vor, um Schutz für Signale unter 18GHz zu bieten
+
+
+
+
+
+
+
+
+
+-> Interplane Capacitive Bypass
+
+Idee ist es, die Distanz, die Hochfrequente Störungen auf dem Power/GND - Plane zurücklegen möglichst gering zu halten. 
+Weiter reduziert es initial das Rauschen, welches überhaupt in die Power und Groundplane eingekoppelt wird, dadurch dass
+es eine Bypass-Kapazität bietet. Dies ist effektiv bei Frequenzen zwischen 300MHz und 1GHz. 
+
+
+
+
+
+
+
+
+
+
+
+
+-> Power Control (3V3 Operation)
